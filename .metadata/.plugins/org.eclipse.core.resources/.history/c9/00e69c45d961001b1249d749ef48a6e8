@@ -12,10 +12,10 @@ public class Main {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		String firstName = null;
-		String lastName = null;
-		String email = null;
-		String password = null;
+		String firstName;
+		String lastName;
+		String email;
+		String password;
 		
 		log.info("Welcome to the Car App.");
 		
@@ -33,15 +33,6 @@ public class Main {
 			
 			switch(menu1) {
 			case 1: log.info("Log In");
-				while(email.length() <= 0) {
-					log.info("Please enter your email address.");
-					email = scanner.nextLine();
-				}
-				while(email.length() <= 0) {
-					log.info("Please enter your password.");
-					password = scanner.nextLine();
-				}
-				
 			
 			break;
 			case 2: log.info("Create a new account.");
