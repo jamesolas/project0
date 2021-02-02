@@ -1,0 +1,28 @@
+package com.app.service.impl;
+
+import com.app.dao.impl.UserDAOImpl;
+import com.app.exception.BusinessException;
+import com.app.model.User;
+import com.app.service.UserService;
+
+public class UserServiceImpl implements UserService {
+	
+	UserDAOImpl dao = new UserDAOImpl();
+
+	@Override
+	public User createAccount(String firstName, String lastName, String email, String password) throws BusinessException {
+		
+		User user = dao.accountCreation(firstName, lastName, email, password);
+				
+		return null;
+	}
+
+	@Override
+	public User logIn(String email, String password) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

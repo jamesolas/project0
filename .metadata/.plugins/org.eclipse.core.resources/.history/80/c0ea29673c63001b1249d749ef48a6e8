@@ -1,0 +1,11 @@
+package com.app.model;
+
+import java.util.Date;
+
+public class Payment {
+	
+	private int paymentId;
+	private Date date;
+	
+
+}

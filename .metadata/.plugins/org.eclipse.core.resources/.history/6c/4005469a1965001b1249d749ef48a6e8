@@ -1,0 +1,63 @@
+package com.app.dao.impl;
+
+import java.sql.Connection;
+import java.util.List;
+
+import com.app.dao.EmployeeDAO;
+import com.app.dbutil.PostgresqlConnection;
+import com.app.exception.BusinessException;
+import com.app.model.Car;
+import com.app.model.Offer;
+import com.app.model.Payment;
+
+public class EmployeeDAOImpl implements EmployeeDAO {
+
+	@Override
+	public List<Car> viewCars() throws BusinessException {
+		List<Car> car = null;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "select carid, make, model where status = notowned";
+			Preparedstatement preparedStatement = connection.prepareStatement(sql);
+		
+			
+		return car;
+		}
+	}
+
+	@Override
+	public int addCar(String make, String model) throws BusinessException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int removeCar(int carId) throws BusinessException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Offer> viewOffers() throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int acceptOffer(int offerId) throws BusinessException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int rejectOffer(int offerId) throws BusinessException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Payment> viewPayments() throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,38 @@
+package com.app.dao.impl;
+
+import java.sql.Connection;
+
+import org.apache.log4j.Logger;
+
+import com.app.dao.UserDAO;
+import com.app.dbutil.PostgresqlConnection;
+import com.app.exception.BusinessException;
+import com.app.main.Main;
+import com.app.model.User;
+
+public class UserDAOImpl  implements UserDAO {
+	
+	private static Logger log = Logger.getLogger(Main.class);
+
+	@Override
+	public int accountCreation(User user) throws BusinessException {
+		int a = 0;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			
+		}catch(ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error occurred");
+		}
+		
+		return a;
+	}
+
+	@Override
+	public User logIn(User user) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

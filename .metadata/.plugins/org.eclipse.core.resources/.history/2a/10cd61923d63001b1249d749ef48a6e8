@@ -1,0 +1,16 @@
+package com.app.model;
+
+public class Offer {
+	
+	private int offerId;
+	private int userId;
+	private String firstName;
+	private String lastName;
+	private int carId;
+	private String make;
+	private String model;
+	private float amount;
+	
+	
+
+}

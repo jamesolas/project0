@@ -1,0 +1,17 @@
+package com.app.model;
+
+public class Loan {
+	
+	private int loanId;
+	private float purchasePrice;
+	private float principal;
+	private int userId;
+	private String firstName;
+	private String lastName;
+	private int carId;
+	private String make;
+	private String model;
+	
+	
+
+}

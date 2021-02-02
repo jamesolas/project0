@@ -1,0 +1,12 @@
+package com.app.model;
+
+public class Customer {
+	private int customerid;
+	private String firstname;
+	private String lastname;
+	private String email;
+	private String password;
+	
+
+
+}

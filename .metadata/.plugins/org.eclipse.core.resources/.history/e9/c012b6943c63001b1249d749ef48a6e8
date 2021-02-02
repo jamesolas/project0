@@ -1,0 +1,17 @@
+package com.app.model;
+
+import java.util.Date;
+
+public class Payment {
+	
+	private int paymentId;
+	private Date date;
+	private int userId;
+	private String firstName;
+	private String lastName;
+	private int carId;
+	private String make;
+	private String model;
+	
+
+}
