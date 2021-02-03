@@ -7,6 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import com.app.dao.EmployeeDAO;
 import com.app.dbutil.PostgresqlConnection;
 import com.app.exception.BusinessException;
@@ -15,6 +17,8 @@ import com.app.model.Offer;
 import com.app.model.Payment;
 
 public class EmployeeDAOImpl implements EmployeeDAO {
+	
+	private static Logger log = Logger.getLogger(EmployeeDAOImpl.class);
 
 	@Override
 	public List<Car> viewCars() throws BusinessException {
@@ -36,49 +40,163 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 			}
 		
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return carList;
 	}
 
 	@Override
-	public int addCar(String make, String model) throws BusinessException {
-		// TODO Auto-generated method stub
-		return 0;
+	public int addCar(Car car) throws BusinessException {
+		int a = 0;
+		
+		try {
+		Connection connection = PostgresqlConnection.getConnection();
+		String sql = "insert into project0.car (make, model, status) values(?,?,?)";
+		PreparedStatement preparedStatement = connection.prepareStatement(sql);
+		preparedStatement.setString(1, car.getMake());
+		preparedStatement.setString(2, car.getModel());
+		preparedStatement.setString(3, "open");
+		a = preparedStatement.executeUpdate();
+		
+		} catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error");
+		} 
+		
+		return a;
 	}
 
 	@Override
 	public int removeCar(int carId) throws BusinessException {
-		// TODO Auto-generated method stub
-		return 0;
+		int a = 0;
+		try {
+		Connection connection = PostgresqlConnection.getConnection();
+		String sql = "delete from project0.car where carid = ?";
+		PreparedStatement preparedStatement = connection.prepareStatement(sql);
+		preparedStatement.setInt(1, carId);
+		a = preparedStatement.executeUpdate();
+		
+		if(a != 0) {
+			log.info("Car "+carId+" deleted");
+		}
+		
+		} catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error");
+		} 
+		
+		return a;
 	}
 
 	@Override
 	public List<Offer> viewOffers() throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+		List<Offer> offerList = new ArrayList<>();
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "select offerid, userid, firstname, lastname, carid, make, model, amount from project0.offer";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while(resultSet.next()) {
+				Offer offer = new Offer();
+				offer.setOfferId(resultSet.getInt("offerid"));
+				offer.setUserId(resultSet.getInt("userid"));
+				offer.setFirstName(resultSet.getString("firstname"));
+				offer.setLastName(resultSet.getString("lastname"));
+				offer.setCarId(resultSet.getInt("carid"));
+				offer.setMake(resultSet.getString("make"));
+				offer.setModel(resultSet.getString("model"));
+				offer.setAmount(resultSet.getDouble("amount"));
+				offerList.add(offer);
+			}
+			if(offerList.size() == 0) {
+				throw new BusinessException("No offers");
+			}
+		
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return offerList;
 	}
 
 	@Override
 	public int acceptOffer(int offerId) throws BusinessException {
-		// TODO Auto-generated method stub
-		return 0;
+		int a = 0;
+		int b = 0;
+		int c = 0;
+		
+		try {
+		Connection connection = PostgresqlConnection.getConnection();
+		String sql = "update project0.car set userid = ? where carid = ?;";
+		PreparedStatement preparedStatement = connection.prepareStatement(sql);
+//		preparedStatement.setString(1, car.getMake());
+//		preparedStatement.setString(2, car.getModel());
+		preparedStatement.setString(3, "open");
+		a = preparedStatement.executeUpdate();
+		
+		} catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error");
+		} 
+		
+		return a;
 	}
 
 	@Override
 	public int rejectOffer(int offerId) throws BusinessException {
-		// TODO Auto-generated method stub
-		return 0;
+		int a = 0;
+		try {
+		Connection connection = PostgresqlConnection.getConnection();
+		String sql = "delete from project0.offer where offerid = ?";
+		PreparedStatement preparedStatement = connection.prepareStatement(sql);
+		preparedStatement.setInt(1, offerId);
+		a = preparedStatement.executeUpdate();
+		
+		if(a != 0) {
+			log.info("Offer "+offerId+" deleted");
+		}
+		
+		} catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error");
+		} 
+		
+		return a;
 	}
 
 	@Override
 	public List<Payment> viewPayments() throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+		List<Payment> paymentList = new ArrayList<>();
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "select paymentid, date, amount, userid, firstname, lastname, make, "
+					+ "model, carid from project0.payment";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while(resultSet.next()) {
+				Payment payment = new Payment();
+				payment.setPaymentId(resultSet.getInt("paymentid"));
+				payment.setDate(resultSet.getDate("date"));
+				payment.setAmount(resultSet.getDouble("amount"));
+				payment.setUserId(resultSet.getInt("userid"));
+				payment.setFirstName(resultSet.getString("firstname"));
+				payment.setLastName(resultSet.getString("lastname"));
+				payment.setCarId(resultSet.getInt("carid"));
+				payment.setMake(resultSet.getString("make"));
+				payment.setModel(resultSet.getString("model"));
+				paymentList.add(payment);
+			}
+			if(paymentList.size() == 0) {
+				throw new BusinessException("No open cars");
+			}
+		
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return paymentList;
 	}
 
 }

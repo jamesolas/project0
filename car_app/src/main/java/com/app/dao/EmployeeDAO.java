@@ -10,7 +10,7 @@ import com.app.model.Payment;
 public interface EmployeeDAO {
 	
 	public List<Car> viewCars() throws BusinessException;
-	public int addCar(String make, String model) throws BusinessException;
+	public int addCar(Car car) throws BusinessException;
 	public int removeCar(int carId) throws BusinessException;
 	public List<Offer> viewOffers() throws BusinessException;
 	public int acceptOffer(int offerId) throws BusinessException;

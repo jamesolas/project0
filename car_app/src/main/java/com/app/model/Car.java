@@ -5,13 +5,19 @@ public class Car {
 	private String make;
 	private String model;
 	private String status;
-	public Car() {
-		
-		super();
-		// TODO Auto-generated constructor stub
 	
-
+	public Car() {
+		super();
 }
+	
+	
+	public Car(String make, String model) {
+		super();
+		this.make = make;
+		this.model = model;
+	}
+
+
 	public Car(int carid, String make, String model, String status) {
 		super();
 		this.carid = carid;

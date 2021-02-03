@@ -9,14 +9,14 @@ public class Offer {
 	private int carId;
 	private String make;
 	private String model;
-	private float amount;
+	private double amount;
 	
 	public Offer() {
 		super();
 	}
 
 	public Offer(int offerId, int userId, String firstName, String lastName, int carId, String make, String model,
-			float amount) {
+			double amount) {
 		super();
 		this.offerId = offerId;
 		this.userId = userId;
@@ -84,11 +84,11 @@ public class Offer {
 		this.model = model;
 	}
 
-	public float getAmount() {
+	public double getAmount() {
 		return amount;
 	}
 
-	public void setAmount(float amount) {
+	public void setAmount(double amount) {
 		this.amount = amount;
 	}
 
@@ -96,7 +96,9 @@ public class Offer {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + Float.floatToIntBits(amount);
+		long temp;
+		temp = Double.doubleToLongBits(amount);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
 		result = prime * result + carId;
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
@@ -116,7 +118,7 @@ public class Offer {
 		if (getClass() != obj.getClass())
 			return false;
 		Offer other = (Offer) obj;
-		if (Float.floatToIntBits(amount) != Float.floatToIntBits(other.amount))
+		if (Double.doubleToLongBits(amount) != Double.doubleToLongBits(other.amount))
 			return false;
 		if (carId != other.carId)
 			return false;
@@ -152,7 +154,6 @@ public class Offer {
 		return "Offer [offerId=" + offerId + ", userId=" + userId + ", firstName=" + firstName + ", lastName="
 				+ lastName + ", carId=" + carId + ", make=" + make + ", model=" + model + ", amount=" + amount + "]";
 	}
-	
-	
+
 
 }

@@ -7,6 +7,8 @@ import org.apache.log4j.Logger;
 
 import com.app.exception.BusinessException;
 import com.app.model.Car;
+import com.app.model.Offer;
+import com.app.model.Payment;
 import com.app.model.User;
 import com.app.service.UserService;
 import com.app.service.impl.EmployeeServiceImpl;
@@ -54,9 +56,8 @@ public class Main {
 
 			//asking user for information
 			try {
-				menu1 = scanner.nextInt();
-				scanner.nextLine();
-			}catch(NumberFormatException e) {
+				menu1 = Integer.parseInt(scanner.nextLine());
+			} catch (NumberFormatException e) {
 			}
 			
 			switch(menu1) {
@@ -124,18 +125,24 @@ public class Main {
 							}
 						break;
 						case 2: log.info("Add a car");
-								while(make.length() <= 0) {
+								while(make.length() == 0) {
 								log.info("What is the make?");
 								make = scanner.nextLine();
-								//code to service
-								
+										
 								}
-								while(model.length() <= 0) {
+								while(model.length() == 0) {
 								log.info("What is the model?");
-								model = scanner.nextLine();
-								//code to service
-								
+								model = scanner.nextLine();	
 								}
+								
+								//code to service
+								try {
+									Car car = employeeServiceImpl.addCar(make, model);
+									log.info(car);
+								} catch (BusinessException e) {
+									e.printStackTrace();
+								}
+								
 						
 						break;
 						case 3: log.info("Remove a car");
@@ -143,16 +150,28 @@ public class Main {
 								log.info("Please enter car Id");
 								carId = scanner.nextInt();
 								//code to service
-									
+								try {
+									employeeServiceImpl.removeCar(carId);
+								} catch (BusinessException e) {
+									e.printStackTrace();
+								}	
 								}
 						
 						break;
 						case 4: log.info("View offers");
 								//code to service
+							try {
+								List<Offer> offerList = employeeServiceImpl.viewOffers();
+								for(Offer offers : offerList) {
+									log.info(offers);
+								}
+							} catch (BusinessException e) {
+								e.printStackTrace();
+							}
 						
 						break;
 						case 5: log.info("Accept an offer");
-								//reseting offerId back to 0 in case it was already assigned a value
+								//resetting offerId back to 0 in case it was already assigned a value
 								offerId = 0;
 								while(offerId <= 0) {
 								log.info("Please enter the offer Id");
@@ -169,12 +188,26 @@ public class Main {
 								log.info("Please enter the offer Id");
 								offerId = scanner.nextInt();
 								//code to service
-								
+								try {
+									employeeServiceImpl.rejectOffer(offerId);
+								} catch (BusinessException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+								}
 								}
 						
 						break;
 						case 7: log.info("View payments");
 								//code to service
+							try {
+								List<Payment> paymentList = employeeServiceImpl.viewPayments();
+								for(Payment payment : paymentList) {
+									log.info(payment);
+								}
+							} catch (BusinessException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 						
 						break;
 						case 8: log.info("Exit");
@@ -271,12 +304,9 @@ public class Main {
 					
 			break;
 			default:log.info("Invalid option");
+			break;
 			}
-			
-			
-			
-			
-				
+	
 		}while(menu1 != 3);
 }
 }
