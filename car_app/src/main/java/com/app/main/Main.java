@@ -10,7 +10,10 @@ import com.app.model.Car;
 import com.app.model.Offer;
 import com.app.model.Payment;
 import com.app.model.User;
+import com.app.service.CustomerService;
+import com.app.service.EmployeeService;
 import com.app.service.UserService;
+import com.app.service.impl.CustomerServiceImpl;
 import com.app.service.impl.EmployeeServiceImpl;
 import com.app.service.impl.UserServiceImpl;
 
@@ -22,7 +25,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 		UserService userService = new UserServiceImpl();
-		EmployeeServiceImpl employeeServiceImpl = new EmployeeServiceImpl();
+		EmployeeService employeeServiceImpl = new EmployeeServiceImpl();
+		CustomerService customerServiceImpl = new CustomerServiceImpl();
 		
 		//setting up scanner
 		Scanner scanner = new Scanner(System.in);
@@ -41,6 +45,7 @@ public class Main {
 		int offerId = 0;
 		int employeeMenu = 0;
 		int customerMenu = 0;
+		float amount = 0;
 
 		
 		log.info("Welcome to the Car App.");
@@ -228,6 +233,7 @@ public class Main {
 						log.info("4)View remaining payments");
 						log.info("5)Exit");
 						
+						
 						try {
 						customerMenu = scanner.nextInt();
 						}catch(NumberFormatException e) {
@@ -238,6 +244,14 @@ public class Main {
 						
 						case 1: log.info("View open cars");
 						//code to service
+							try {
+								List<Car> carList = customerServiceImpl.viewOpenCars();
+								for(Car car : carList) {
+									log.info(car);
+								}
+							} catch (BusinessException e) {
+								e.printStackTrace();
+							}
 						
 						break;
 						case 2: log.info("Make an offer");
@@ -246,17 +260,34 @@ public class Main {
 						carId = 0;
 
 						while(carId <= 0) {
+							//userId was already found so no need to get it again
+							
 							log.info("Please enter the car ID");
 							carId = scanner.nextInt();
 							
 							log.info("Please enter an amount");
-							int amount = scanner.nextInt();
+							amount = scanner.nextFloat();
 							//code to service
+							try {
+								int makeOffer = customerServiceImpl.makeOffer(userId, carId, amount);
+							} catch (BusinessException e) {
+								e.printStackTrace();
+							}
 						}
 							
 						break;
 						case 3: log.info("View owned cars");
+						//already found userid so no need to get it again
 						//code to service
+							try {
+								List<Car> carList = customerServiceImpl.viewOwnedCars(userId);
+								for(Car car : carList) {
+									log.info(car);
+								}
+							} catch (BusinessException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 						
 						break;
 						case 4: log.info("View remaining payments");

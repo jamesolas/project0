@@ -9,7 +9,7 @@ import com.app.model.Payment;
 public interface CustomerDAO {
 	
 	public List<Car> viewOpenCars() throws BusinessException;
-	public int makeOffer(int userId, int carId) throws BusinessException;
+	public int makeOffer(int userId, int carId, float amount) throws BusinessException;
 	public List<Car> viewOwnedCars(int userId) throws BusinessException;
 	public List<Payment> viewRemainingPayments(int userId) throws BusinessException;
 	public int makePayment(int userId, int loanId);

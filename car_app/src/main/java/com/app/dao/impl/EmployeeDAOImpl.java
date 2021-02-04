@@ -29,7 +29,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 			ResultSet resultSet = preparedStatement.executeQuery();
 			while(resultSet.next()) {
 				Car car = new Car();
-				car.setCarid(resultSet.getInt("carid"));
+				car.setCarId(resultSet.getInt("carid"));
 				car.setMake(resultSet.getString("make"));
 				car.setModel(resultSet.getString("model"));
 				car.setStatus(resultSet.getString("status"));
@@ -49,11 +49,10 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 
 	@Override
 	public int addCar(Car car) throws BusinessException {
-		int a = 0;
-		
+		int a = 0;	
 		try {
 		Connection connection = PostgresqlConnection.getConnection();
-		String sql = "insert into project0.car (make, model, status) values(?,?,?)";
+		String sql = "insert into project0.offer (make, model, status) values(?,?,?)";
 		PreparedStatement preparedStatement = connection.prepareStatement(sql);
 		preparedStatement.setString(1, car.getMake());
 		preparedStatement.setString(2, car.getModel());

@@ -340,3 +340,334 @@
 {INFO}     com.app.main.Main     6)Reject an offer  02-02-2021 PST 19:46
 {INFO}     com.app.main.Main       7)View payments  02-02-2021 PST 19:46
 {INFO}     com.app.main.Main                8)Exit  02-02-2021 PST 19:46
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main        View open cars  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 15:46
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main        View open cars  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 15:47
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main        View open cars  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main  Car [carId=2, make=honda, model=civic, status=open]  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main  Car [carId=4, make=ford, model=focus, status=open]  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main  Car [carId=1, make=honda, model=accord, status=open]  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main  Car [carId=3, make=toyota, model=corolla, status=open]  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 15:48
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main        View open cars  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main  Car [carId=2, make=honda, model=civic, status=open]  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main  Car [carId=4, make=ford, model=focus, status=open]  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main  Car [carId=1, make=honda, model=accord, status=open]  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main  Car [carId=3, make=toyota, model=corolla, status=open]  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main         Make an offer  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main  Please enter the car ID  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main  Please enter an amount  03-02-2021 PST 16:21
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main        View open cars  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  Car [carId=2, make=honda, model=civic, status=open]  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  Car [carId=4, make=ford, model=focus, status=open]  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  Car [carId=1, make=honda, model=accord, status=open]  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  Car [carId=3, make=toyota, model=corolla, status=open]  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main         Make an offer  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  Please enter the car ID  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  Please enter an amount  03-02-2021 PST 16:23
+{INFO}  com.app.dao.impl.CustomerDAOImpl  org.postgresql.util.PSQLException: ERROR: null value in column "firstname" violates not-null constraint
+  Detail: Failing row contains (6, 2, null, null, 2, null, null, 505.35).  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 16:23
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main        View open cars  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main  Car [carId=2, make=honda, model=civic, status=open]  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main  Car [carId=4, make=ford, model=focus, status=open]  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main  Car [carId=1, make=honda, model=accord, status=open]  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main  Car [carId=3, make=toyota, model=corolla, status=open]  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main         Make an offer  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main  Please enter the car ID  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main  Please enter an amount  03-02-2021 PST 16:24
+{INFO}  com.app.dao.impl.CustomerDAOImpl  org.postgresql.util.PSQLException: ERROR: null value in column "firstname" violates not-null constraint
+  Detail: Failing row contains (7, 2, null, null, 2, null, null, 505.35).  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 16:24
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main        View open cars  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main  Car [carId=2, make=honda, model=civic, status=open]  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main  Car [carId=4, make=ford, model=focus, status=open]  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main  Car [carId=1, make=honda, model=accord, status=open]  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main  Car [carId=3, make=toyota, model=corolla, status=open]  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main         Make an offer  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main  Please enter the car ID  03-02-2021 PST 16:59
+{INFO}     com.app.main.Main  Please enter an amount  03-02-2021 PST 16:59
+{INFO}  com.app.service.impl.CustomerServiceImpl        Offer was made  03-02-2021 PST 17:00
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:00
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:00
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:00
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:00
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:00
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:00
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 17:18
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 17:18
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 17:18
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 17:18
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 17:18
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 17:18
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:18
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:18
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:18
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:18
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:18
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:18
+{INFO}     com.app.main.Main       View owned cars  03-02-2021 PST 17:19
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:19
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:19
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:19
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:19
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:19
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:19
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 17:21
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 17:21
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 17:21
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 17:21
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 17:21
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main       View owned cars  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:22
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main       View owned cars  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:23
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main       View owned cars  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main       View owned cars  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:24
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main       View owned cars  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main  Car [carId=3, make=toyota, model=corolla, status=null, userId=2]  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:25
+{INFO}     com.app.main.Main  Welcome to the Car App.  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main             1) Log In  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main  2) Register for a new account.  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main                Log In  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main  Please enter your email address.  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main  Please enter your password.  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main       View owned cars  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main  Car [carId=3, make=toyota, model=corolla, status=open, userId=2]  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:26
+{INFO}     com.app.main.Main       View owned cars  03-02-2021 PST 17:27
+{INFO}     com.app.main.Main  Car [carId=3, make=toyota, model=corolla, status=sold, userId=2]  03-02-2021 PST 17:27
+{INFO}     com.app.main.Main         Customer Menu  03-02-2021 PST 17:27
+{INFO}     com.app.main.Main      1)View open cars  03-02-2021 PST 17:27
+{INFO}     com.app.main.Main       2)Make an offer  03-02-2021 PST 17:27
+{INFO}     com.app.main.Main     3)View owned cars  03-02-2021 PST 17:27
+{INFO}     com.app.main.Main  4)View remaining payments  03-02-2021 PST 17:27
+{INFO}     com.app.main.Main                5)Exit  03-02-2021 PST 17:27
