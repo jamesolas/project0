@@ -128,12 +128,33 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		
 		try {
 		Connection connection = PostgresqlConnection.getConnection();
-		String sql = "update project0.car set userid = ? where carid = ?;";
+		String sql = "update project0.car set userid = offer.userid, status = 'sold' from project0.offer where car.carid = offer.carid and offerid = ?;";
 		PreparedStatement preparedStatement = connection.prepareStatement(sql);
-//		preparedStatement.setString(1, car.getMake());
-//		preparedStatement.setString(2, car.getModel());
-		preparedStatement.setString(3, "open");
+		preparedStatement.setInt(1, offerId);
 		a = preparedStatement.executeUpdate();
+		log.info(a);
+		
+		if(a != 0) {
+		Connection connection2 = PostgresqlConnection.getConnection();
+		String sql2 = "INSERT INTO project0.loan (purchaseprice, principal, interest, userid, carid) "
+				+ "SELECT amount, amount, amount * .05, userid, carid "
+				+ "FROM project0.offer "
+				+ "where offerid = ?;";
+		PreparedStatement preparedStatement2 = connection2.prepareStatement(sql2);
+		preparedStatement2.setInt(1, offerId);
+		b = preparedStatement2.executeUpdate();	
+		log.info(b);
+		}
+		
+		if(a != 0) {
+			Connection connection3 = PostgresqlConnection.getConnection();
+			//String sql3 = "delete from project0.offer where offerid = ?;";
+			String sql3 = "delete from project0.offer using (select carid from project0.offer where offerid = ?) as find;"; //where carid  offerid = ?;";
+			PreparedStatement preparedStatement3 = connection3.prepareStatement(sql3);
+			preparedStatement3.setInt(1, offerId);
+			b = preparedStatement3.executeUpdate();	
+			log.info(b);
+			}
 		
 		} catch (ClassNotFoundException | SQLException e) {
 			log.info(e);

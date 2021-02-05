@@ -182,7 +182,11 @@ public class Main {
 								log.info("Please enter the offer Id");
 								offerId = scanner.nextInt();
 								//code to service
-								
+								try {
+									employeeServiceImpl.acceptOffer(offerId);
+								} catch (BusinessException e) {
+									e.printStackTrace();
+								}
 								}
 						
 						break;

@@ -88,13 +88,13 @@ public class CustomerDAOImpl implements CustomerDAO{
 	}
 
 	@Override
-	public List<Payment> viewRemainingPayments(int userId) throws BusinessException {
+	public List<Payment> viewRemainingPayments(int userId, int carId) throws BusinessException {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public int makePayment(int userId, int loanId) {
+	public int makePayment(int userId, int carId, int loanId) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
