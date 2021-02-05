@@ -16,5 +16,5 @@ public interface EmployeeService {
 	public int acceptOffer(int offerId) throws BusinessException;
 	public void rejectOffer(int offerId) throws BusinessException;
 	public List<Payment> viewPayments() throws BusinessException;
-
+	
 }

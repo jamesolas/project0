@@ -57,6 +57,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	public int acceptOffer(int offerId) throws BusinessException {
 		//code to DAO
 		dao.acceptOffer(offerId);
+		
 		return 0;
 	}
 

@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 
 import com.app.exception.BusinessException;
 import com.app.model.Car;
+import com.app.model.Loan;
 import com.app.model.Offer;
 import com.app.model.Payment;
 import com.app.model.User;
@@ -214,7 +215,6 @@ public class Main {
 									log.info(payment);
 								}
 							} catch (BusinessException e) {
-								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 						
@@ -289,13 +289,21 @@ public class Main {
 									log.info(car);
 								}
 							} catch (BusinessException e) {
-								// TODO Auto-generated catch block
 								e.printStackTrace();
 							}
 						
 						break;
 						case 4: log.info("View remaining payments");
 						//code to service
+							try {
+								List<Loan> loanList = customerServiceImpl.viewRemainingPayments(userId);
+								for(Loan loan : loanList) {
+									log.info(loan);
+								}
+							} catch (BusinessException e) {
+								e.printStackTrace();
+							}
+							
 						
 						
 						break;

@@ -367,3 +367,653 @@
 {INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 17:34
 {INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 17:34
 {INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 17:34
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main       Accept an offer  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main  Please enter the offer Id  04-02-2021 PST 17:35
+{INFO}  com.app.dao.impl.EmployeeDAOImpl                     1  04-02-2021 PST 17:35
+{INFO}  com.app.dao.impl.EmployeeDAOImpl                     1  04-02-2021 PST 17:35
+{INFO}  com.app.dao.impl.EmployeeDAOImpl                     3  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 17:35
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:23
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main             View cars  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main  Car [carId=2, make=honda, model=civic, status=open, userId=0]  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main  Car [carId=4, make=ford, model=focus, status=open, userId=0]  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main  Car [carId=5, make=mazda, model=rx-7, status=open, userId=0]  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:30
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main  Offer [offerId=10, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=600.54]  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main       Accept an offer  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main  Please enter the offer Id  04-02-2021 PST 19:32
+{INFO}  com.app.dao.impl.EmployeeDAOImpl                     1  04-02-2021 PST 19:32
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  org.postgresql.util.PSQLException: ERROR: INSERT has more expressions than target columns
+  Position: 156  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:32
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 19:38
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 19:38
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 19:38
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main  Offer [offerId=10, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=600.54]  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main       Accept an offer  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main  Please enter the offer Id  04-02-2021 PST 19:39
+{INFO}  com.app.dao.impl.EmployeeDAOImpl                     1  04-02-2021 PST 19:39
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  org.postgresql.util.PSQLException: ERROR: INSERT has more expressions than target columns
+  Position: 159  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:39
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main        Invalid option  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main  Offer [offerId=10, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=600.54]  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main       Accept an offer  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main  Please enter the offer Id  04-02-2021 PST 19:43
+{INFO}  com.app.dao.impl.EmployeeDAOImpl                     1  04-02-2021 PST 19:43
+{INFO}  com.app.dao.impl.EmployeeDAOImpl                     1  04-02-2021 PST 19:43
+{INFO}  com.app.dao.impl.EmployeeDAOImpl                     1  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:43
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:46
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main  Offer [offerId=11, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main  Offer [offerId=12, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main  Offer [offerId=13, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main  Offer [offerId=14, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main  Offer [offerId=15, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main       Accept an offer  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main  Please enter the offer Id  04-02-2021 PST 19:47
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  org.postgresql.util.PSQLException: ERROR: syntax error at or near "project0"
+  Position: 225  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:47
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Offer [offerId=11, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Offer [offerId=12, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Offer [offerId=13, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Offer [offerId=14, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Offer [offerId=15, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main       Accept an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Please enter the offer Id  04-02-2021 PST 19:48
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  org.postgresql.util.PSQLException: ERROR: syntax error at or near ")"
+  Position: 209  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Offer [offerId=11, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Offer [offerId=12, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Offer [offerId=13, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Offer [offerId=14, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Offer [offerId=15, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main       Accept an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Please enter the offer Id  04-02-2021 PST 19:48
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  org.postgresql.util.PSQLException: ERROR: syntax error at or near ")"
+  Position: 209  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:48
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 19:49
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 20:03
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 20:03
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 20:03
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 20:03
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 20:03
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 20:03
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 20:03
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 20:04
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 20:04
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 20:04
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 20:04
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 20:04
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 20:04
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 20:04
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 20:05
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 20:05
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 20:05
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 20:05
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 20:05
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 20:05
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 20:06
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 20:06
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 20:06
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 20:06
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 20:06
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 20:06
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 20:24
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 20:24
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 20:24
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 20:24
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 20:24
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 20:24
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 20:29
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 20:29
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 20:29
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 20:29
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 20:29
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 20:29
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 20:30
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 20:30
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 20:30
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 20:30
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 20:30
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 20:30
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 21:33
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main  Offer [offerId=11, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main  Offer [offerId=12, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main  Offer [offerId=13, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main  Offer [offerId=14, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main  Offer [offerId=15, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=673.89]  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main       Accept an offer  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main  Please enter the offer Id  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 21:40
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main  Offer [offerId=16, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=872.91]  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main       Accept an offer  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main  Please enter the offer Id  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 21:41
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main  Offer [offerId=17, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=582.1]  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main  Offer [offerId=18, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=582.1]  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main  Offer [offerId=19, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=582.1]  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main  Offer [offerId=20, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=582.1]  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main       Reject an offer  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main  Please enter the offer Id  04-02-2021 PST 21:43
+{INFO}  com.app.dao.impl.EmployeeDAOImpl      Offer 20 deleted  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main           View offers  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main  Offer [offerId=17, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=582.1]  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main  Offer [offerId=18, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=582.1]  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main  Offer [offerId=19, userId=2, firstName=james, lastName=olas, carId=1, make=honda, model=accord, amount=582.1]  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main         Employee Menu  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main           1)View cars  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main           2)Add a car  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main        3)Remove a car  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main         4)View offers  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main     5)Accept an offer  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main     6)Reject an offer  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main       7)View payments  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main                8)Exit  04-02-2021 PST 21:43
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 22:46
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 22:46
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 22:46
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 22:46
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 22:46
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 22:46
+{INFO}     com.app.main.Main         Customer Menu  04-02-2021 PST 22:46
+{INFO}     com.app.main.Main      1)View open cars  04-02-2021 PST 22:46
+{INFO}     com.app.main.Main       2)Make an offer  04-02-2021 PST 22:46
+{INFO}     com.app.main.Main     3)View owned cars  04-02-2021 PST 22:46
+{INFO}     com.app.main.Main  4)View remaining payments  04-02-2021 PST 22:46
+{INFO}     com.app.main.Main                5)Exit  04-02-2021 PST 22:46
+{INFO}     com.app.main.Main        View open cars  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main  Car [carId=2, make=honda, model=civic, status=open, userId=0]  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main  Car [carId=4, make=ford, model=focus, status=open, userId=0]  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main  Car [carId=5, make=mazda, model=rx-7, status=open, userId=0]  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main         Customer Menu  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main      1)View open cars  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main       2)Make an offer  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main     3)View owned cars  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main  4)View remaining payments  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main                5)Exit  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main         Make an offer  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main  Please enter the car ID  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main  Please enter an amount  04-02-2021 PST 22:47
+{INFO}  com.app.service.impl.CustomerServiceImpl        Offer was made  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main         Customer Menu  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main      1)View open cars  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main       2)Make an offer  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main     3)View owned cars  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main  4)View remaining payments  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main                5)Exit  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main       View owned cars  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main  Car [carId=1, make=honda, model=accord, status=sold, userId=2]  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main         Customer Menu  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main      1)View open cars  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main       2)Make an offer  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main     3)View owned cars  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main  4)View remaining payments  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main                5)Exit  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main  View remaining payments  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main         Customer Menu  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main      1)View open cars  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main       2)Make an offer  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main     3)View owned cars  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main  4)View remaining payments  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main                5)Exit  04-02-2021 PST 22:47
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main         Customer Menu  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main      1)View open cars  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main       2)Make an offer  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main     3)View owned cars  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main  4)View remaining payments  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main                5)Exit  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main       View owned cars  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main  Car [carId=1, make=honda, model=accord, status=sold, userId=2]  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main         Customer Menu  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main      1)View open cars  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main       2)Make an offer  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main     3)View owned cars  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main  4)View remaining payments  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main                5)Exit  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main  View remaining payments  04-02-2021 PST 22:57
+{INFO}     com.app.main.Main  Welcome to the Car App.  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main             1) Log In  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  2) Register for a new account.  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main                Log In  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  Please enter your email address.  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  Please enter your password.  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main         Customer Menu  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main      1)View open cars  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main       2)Make an offer  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main     3)View owned cars  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  4)View remaining payments  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main                5)Exit  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main       View owned cars  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  Car [carId=1, make=honda, model=accord, status=sold, userId=2]  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main         Customer Menu  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main      1)View open cars  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main       2)Make an offer  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main     3)View owned cars  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  4)View remaining payments  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main                5)Exit  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  View remaining payments  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  Loan [loanId=2, purchasePrice=500.25, principal=500.25, interest=25.01, userId=2, firstName=null, lastName=null, carId=1, make=null, model=null, paymentsRemaining=60, paymentAmount=8.75]  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  Loan [loanId=6, purchasePrice=600.54, principal=600.54, interest=30.03, userId=2, firstName=null, lastName=null, carId=1, make=null, model=null, paymentsRemaining=60, paymentAmount=10.50945]  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  Loan [loanId=7, purchasePrice=673.89, principal=673.89, interest=33.69, userId=2, firstName=null, lastName=null, carId=1, make=null, model=null, paymentsRemaining=60, paymentAmount=674.45]  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  Loan [loanId=8, purchasePrice=872.91, principal=872.91, interest=43.65, userId=2, firstName=null, lastName=null, carId=1, make=null, model=null, paymentsRemaining=60, paymentAmount=873.64]  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main         Customer Menu  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main      1)View open cars  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main       2)Make an offer  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main     3)View owned cars  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  4)View remaining payments  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main                5)Exit  04-02-2021 PST 23:02

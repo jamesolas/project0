@@ -8,6 +8,7 @@ import com.app.dao.CustomerDAO;
 import com.app.dao.impl.CustomerDAOImpl;
 import com.app.exception.BusinessException;
 import com.app.model.Car;
+import com.app.model.Loan;
 import com.app.model.Payment;
 import com.app.service.CustomerService;
 
@@ -43,9 +44,10 @@ public class CustomerServiceImpl implements CustomerService{
 	}
 
 	@Override
-	public List<Payment> viewRemainingPayments(int userId) throws BusinessException {
-
-		return null;
+	public List<Loan> viewRemainingPayments(int userId) throws BusinessException {
+		List<Loan> loanList = null;
+		loanList = dao.viewRemainingPayments(userId);
+		return loanList;
 	}
 
 	@Override

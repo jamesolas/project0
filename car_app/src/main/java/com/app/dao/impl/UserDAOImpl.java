@@ -8,6 +8,7 @@ import java.sql.SQLException;
 import org.apache.log4j.Logger;
 
 import com.app.dao.UserDAO;
+import com.app.dbutil.ConnectionClosers;
 import com.app.dbutil.PostgresqlConnection;
 import com.app.exception.BusinessException;
 import com.app.main.Main;
@@ -43,8 +44,10 @@ public class UserDAOImpl  implements UserDAO {
 	public User logIn(String email, String password) throws BusinessException {
 		User user = null;
 		String type = null;
+		Connection connection = null;
+		
 		try {
-			Connection connection = PostgresqlConnection.getConnection();
+			connection = PostgresqlConnection.getConnection();
 			String sql = "select email, password, type from project0.user where email=? and password=?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, email);
@@ -59,15 +62,15 @@ public class UserDAOImpl  implements UserDAO {
 				}else{
 					log.info("Email and password do not match.");
 				}
-			
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-				
+		}finally {
+			ConnectionClosers.close(connection);
+		}		
 		return user;
 	}
 

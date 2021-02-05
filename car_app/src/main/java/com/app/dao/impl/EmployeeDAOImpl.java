@@ -10,6 +10,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 
 import com.app.dao.EmployeeDAO;
+import com.app.dbutil.ConnectionClosers;
 import com.app.dbutil.PostgresqlConnection;
 import com.app.exception.BusinessException;
 import com.app.model.Car;
@@ -92,7 +93,10 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	@Override
 	public List<Offer> viewOffers() throws BusinessException {
 		List<Offer> offerList = new ArrayList<>();
-		try(Connection connection = PostgresqlConnection.getConnection()){
+		Connection connection = null;
+		
+		try{
+			connection = PostgresqlConnection.getConnection();
 			String sql = "select offerid, userid, firstname, lastname, carid, make, model, amount from project0.offer";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			ResultSet resultSet = preparedStatement.executeQuery();
@@ -112,11 +116,12 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 				throw new BusinessException("No offers");
 			}
 		
-		} catch (ClassNotFoundException e) {
+		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
-		} catch (SQLException e) {
-			e.printStackTrace();
+		}finally {
+			ConnectionClosers.close(connection);
 		}
+		
 		return offerList;
 	}
 
@@ -126,40 +131,41 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		int b = 0;
 		int c = 0;
 		
+		Connection connection = null;
+		
 		try {
-		Connection connection = PostgresqlConnection.getConnection();
+		connection = PostgresqlConnection.getConnection();
 		String sql = "update project0.car set userid = offer.userid, status = 'sold' from project0.offer where car.carid = offer.carid and offerid = ?;";
 		PreparedStatement preparedStatement = connection.prepareStatement(sql);
 		preparedStatement.setInt(1, offerId);
 		a = preparedStatement.executeUpdate();
-		log.info(a);
 		
 		if(a != 0) {
 		Connection connection2 = PostgresqlConnection.getConnection();
-		String sql2 = "INSERT INTO project0.loan (purchaseprice, principal, interest, userid, carid) "
-				+ "SELECT amount, amount, amount * .05, userid, carid "
+		String sql2 = "INSERT INTO project0.loan (purchaseprice, principal, interest, userid, carid, payments_remaining, payment_amount) "
+				+ "SELECT amount, amount, amount * .05, userid, carid, 60, round(amount + (amount * .05) / 60, 2) "
 				+ "FROM project0.offer "
 				+ "where offerid = ?;";
 		PreparedStatement preparedStatement2 = connection2.prepareStatement(sql2);
 		preparedStatement2.setInt(1, offerId);
 		b = preparedStatement2.executeUpdate();	
-		log.info(b);
 		}
 		
-		if(a != 0) {
+		if(b != 0) {
 			Connection connection3 = PostgresqlConnection.getConnection();
 			//String sql3 = "delete from project0.offer where offerid = ?;";
-			String sql3 = "delete from project0.offer using (select carid from project0.offer where offerid = ?) as find;"; //where carid  offerid = ?;";
+			String sql3 = "delete from project0.offer using (select carid from project0.offer where offerid = ?) as find;";
 			PreparedStatement preparedStatement3 = connection3.prepareStatement(sql3);
 			preparedStatement3.setInt(1, offerId);
 			b = preparedStatement3.executeUpdate();	
-			log.info(b);
 			}
 		
 		} catch (ClassNotFoundException | SQLException e) {
 			log.info(e);
 			throw new BusinessException("Internal error");
-		} 
+		} finally {
+			ConnectionClosers.close(connection);
+		}
 		
 		return a;
 	}
@@ -218,5 +224,25 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		}
 		return paymentList;
 	}
+
+	@Override
+	public int addPayments(int offerId) throws BusinessException {
+		int a = 0;	
+		try {
+		Connection connection = PostgresqlConnection.getConnection();
+		String sql = "insert into project0.offer (make, model, status) values(?,?,?)";
+		PreparedStatement preparedStatement = connection.prepareStatement(sql);
+		preparedStatement.setInt(1, offerId);
+		a = preparedStatement.executeUpdate();
+		
+		} catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error");
+		} 
+		
+		return a;
+			
+		}
+	
 
 }

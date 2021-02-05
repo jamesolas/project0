@@ -16,4 +16,6 @@ public interface EmployeeDAO {
 	public int acceptOffer(int offerId) throws BusinessException;
 	public int rejectOffer(int offerId) throws BusinessException;
 	public List<Payment> viewPayments() throws BusinessException;
+	public int addPayments(int offerId) throws BusinessException;
+	
 }

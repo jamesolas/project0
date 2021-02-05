@@ -10,9 +10,11 @@ import java.util.List;
 import org.apache.log4j.Logger;
 
 import com.app.dao.CustomerDAO;
+import com.app.dbutil.ConnectionClosers;
 import com.app.dbutil.PostgresqlConnection;
 import com.app.exception.BusinessException;
 import com.app.model.Car;
+import com.app.model.Loan;
 import com.app.model.Payment;
 
 public class CustomerDAOImpl implements CustomerDAO{
@@ -64,8 +66,9 @@ public class CustomerDAOImpl implements CustomerDAO{
 	@Override
 	public List<Car> viewOwnedCars(int userId) throws BusinessException {
 		List<Car> carList = new ArrayList<>();
+		Connection connection = null;
 		try {
-			Connection connection = PostgresqlConnection.getConnection();
+			connection = PostgresqlConnection.getConnection();
 			String sql = "Select carid, make, model,status, userid from project0.car where userid = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1, userId);
@@ -83,20 +86,66 @@ public class CustomerDAOImpl implements CustomerDAO{
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
+		}finally {
+			ConnectionClosers.close(connection);
 		}
 		return carList;
 	}
 
 	@Override
-	public List<Payment> viewRemainingPayments(int userId, int carId) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+	public List<Loan> viewRemainingPayments(int userId) throws BusinessException {
+		List<Loan> loanList = new ArrayList<>();
+		try {
+			Connection connection = PostgresqlConnection.getConnection();
+			String sql = "Select loanid, purchaseprice, principal,interest, userid, firstname, lastname carid,"
+					+ " make, model, payments_remaining, payment_amount from project0.loan where userid = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, userId);
+			ResultSet resultSet = preparedStatement.executeQuery();
+				while(resultSet.next()){
+				Loan loan = new Loan();
+				loan.setLoanId(resultSet.getInt("loanId"));
+				loan.setPurchasePrice(resultSet.getFloat("purchaseprice"));
+				loan.setPrincipal(resultSet.getFloat("principal"));
+				loan.setInterest(resultSet.getFloat("interest"));
+				loan.setUserId(resultSet.getInt("userid"));
+				loan.setFirstName(resultSet.getString("firstname"));
+				loan.setLastName(resultSet.getString("lastname"));
+				loan.setCarId(resultSet.getInt("carid"));
+				loan.setPaymentsRemaining(resultSet.getInt("payments_remaining"));
+				loan.setPaymentAmount(resultSet.getFloat("payment_amount"));
+				loanList.add(loan);
+				}
+				
+			if(loanList.size() == 0) {
+				throw new BusinessException("No owned cars");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+		}
+		return loanList;
 	}
 
 	@Override
-	public int makePayment(int userId, int carId, int loanId) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int makePayment(int userId, int carId) throws BusinessException {
+		int a = 0;
+		try {
+		Connection connection = PostgresqlConnection.getConnection();
+		String sql = "update project0.loan set payments_remaining = payments_remaining - 1 where userid = ?";
+		PreparedStatement preparedStatement = connection.prepareStatement(sql);
+		preparedStatement.setInt(1, userId);
+		a = preparedStatement.executeUpdate();
+		
+		if(a != 0) {
+			log.info("Payment made");
+		}
+		
+		} catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error");
+		} 
+		
+		return a;
 	}
 
 }
