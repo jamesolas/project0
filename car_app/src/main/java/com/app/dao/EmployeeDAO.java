@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.app.exception.BusinessException;
 import com.app.model.Car;
+import com.app.model.Loan;
 import com.app.model.Offer;
 import com.app.model.Payment;
 
@@ -15,7 +16,7 @@ public interface EmployeeDAO {
 	public List<Offer> viewOffers() throws BusinessException;
 	public int acceptOffer(int offerId) throws BusinessException;
 	public int rejectOffer(int offerId) throws BusinessException;
-	public List<Payment> viewPayments() throws BusinessException;
+	public List<Loan> viewPayments() throws BusinessException;
 	public int addPayments(int offerId) throws BusinessException;
 	
 }

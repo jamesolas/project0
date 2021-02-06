@@ -12,6 +12,6 @@ public interface CustomerService {
 	public int makeOffer(int userId, int carId, float amount) throws BusinessException;
 	public List<Car> viewOwnedCars(int userId) throws BusinessException;
 	public List<Loan> viewRemainingPayments(int userId) throws BusinessException;
-	public int makePayment(int userId, int loanId);
+	public int makePayment(int userId, int carId);
 
 }

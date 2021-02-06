@@ -4,8 +4,8 @@ import java.util.List;
 
 import com.app.exception.BusinessException;
 import com.app.model.Car;
+import com.app.model.Loan;
 import com.app.model.Offer;
-import com.app.model.Payment;
 
 public interface EmployeeService {
 	
@@ -15,6 +15,6 @@ public interface EmployeeService {
 	public List<Offer> viewOffers() throws BusinessException;
 	public int acceptOffer(int offerId) throws BusinessException;
 	public void rejectOffer(int offerId) throws BusinessException;
-	public List<Payment> viewPayments() throws BusinessException;
+	public List<Loan> viewPayments() throws BusinessException;
 	
 }

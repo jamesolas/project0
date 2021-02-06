@@ -14,6 +14,7 @@ import com.app.dbutil.ConnectionClosers;
 import com.app.dbutil.PostgresqlConnection;
 import com.app.exception.BusinessException;
 import com.app.model.Car;
+import com.app.model.Loan;
 import com.app.model.Offer;
 import com.app.model.Payment;
 
@@ -53,7 +54,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		int a = 0;	
 		try {
 		Connection connection = PostgresqlConnection.getConnection();
-		String sql = "insert into project0.offer (make, model, status) values(?,?,?)";
+		String sql = "insert into project0.car (make, model, status) values(?,?,?)";
 		PreparedStatement preparedStatement = connection.prepareStatement(sql);
 		preparedStatement.setString(1, car.getMake());
 		preparedStatement.setString(2, car.getModel());
@@ -61,7 +62,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		a = preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
+			System.out.println(e);
 			throw new BusinessException("Internal error");
 		} 
 		
@@ -79,11 +80,11 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		a = preparedStatement.executeUpdate();
 		
 		if(a != 0) {
-			log.info("Car "+carId+" deleted");
+			System.out.println("Car "+carId+" deleted");
 		}
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
+			System.out.println(e);
 			throw new BusinessException("Internal error");
 		} 
 		
@@ -157,17 +158,17 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 			String sql3 = "delete from project0.offer using (select carid from project0.offer where offerid = ?) as find;";
 			PreparedStatement preparedStatement3 = connection3.prepareStatement(sql3);
 			preparedStatement3.setInt(1, offerId);
-			b = preparedStatement3.executeUpdate();	
+			c = preparedStatement3.executeUpdate();	
 			}
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
+			System.out.println(e);
 			throw new BusinessException("Internal error");
 		} finally {
 			ConnectionClosers.close(connection);
 		}
 		
-		return a;
+		return c;
 	}
 
 	@Override
@@ -181,11 +182,11 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		a = preparedStatement.executeUpdate();
 		
 		if(a != 0) {
-			log.info("Offer "+offerId+" deleted");
+			System.out.println("Offer "+offerId+" deleted");
 		}
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
+			System.out.println(e);
 			throw new BusinessException("Internal error");
 		} 
 		
@@ -193,36 +194,33 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	}
 
 	@Override
-	public List<Payment> viewPayments() throws BusinessException {
-		List<Payment> paymentList = new ArrayList<>();
-		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "select paymentid, date, amount, userid, firstname, lastname, make, "
-					+ "model, carid from project0.payment";
+	public List<Loan> viewPayments() throws BusinessException {
+		List<Loan> loanList = new ArrayList<>();
+		try {
+			Connection connection = PostgresqlConnection.getConnection();
+			String sql = "SELECT loanid, purchaseprice, interest, loan.userid, loan.carid, payments_remaining, payment_amount, car.carid, car.make, car.model\r\n"
+					+ "FROM project0.loan INNER JOIN project0.car ON loan.carid = car.carid;";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			ResultSet resultSet = preparedStatement.executeQuery();
-			while(resultSet.next()) {
-				Payment payment = new Payment();
-				payment.setPaymentId(resultSet.getInt("paymentid"));
-				payment.setDate(resultSet.getDate("date"));
-				payment.setAmount(resultSet.getDouble("amount"));
-				payment.setUserId(resultSet.getInt("userid"));
-				payment.setFirstName(resultSet.getString("firstname"));
-				payment.setLastName(resultSet.getString("lastname"));
-				payment.setCarId(resultSet.getInt("carid"));
-				payment.setMake(resultSet.getString("make"));
-				payment.setModel(resultSet.getString("model"));
-				paymentList.add(payment);
+				while(resultSet.next()){
+				Loan loan = new Loan();
+				loan.setLoanId(resultSet.getInt("loanId"));
+				loan.setPurchasePrice(resultSet.getFloat("purchaseprice"));
+				loan.setInterest(resultSet.getFloat("interest"));
+				loan.setUserId(resultSet.getInt("userid"));
+				loan.setCarId(resultSet.getInt("carid"));
+				loan.setPaymentsRemaining(resultSet.getInt("payments_remaining"));
+				loan.setPaymentAmount(resultSet.getFloat("payment_amount"));
+				loanList.add(loan);
+				}
+				
+			if(loanList.size() == 0) {
+				throw new BusinessException("No loans on cars");
 			}
-			if(paymentList.size() == 0) {
-				throw new BusinessException("No open cars");
-			}
-		
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		} catch (SQLException e) {
+		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 		}
-		return paymentList;
+		return loanList;
 	}
 
 	@Override
@@ -236,7 +234,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		a = preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
+			System.out.println(e);
 			throw new BusinessException("Internal error");
 		} 
 		

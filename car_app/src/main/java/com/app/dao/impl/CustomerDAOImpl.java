@@ -9,6 +9,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
+
 import com.app.dao.CustomerDAO;
 import com.app.dbutil.ConnectionClosers;
 import com.app.dbutil.PostgresqlConnection;
@@ -56,7 +57,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 		a = preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
+			System.out.println(e);
 			throw new BusinessException("Internal error");
 		} 
 		
@@ -97,8 +98,8 @@ public class CustomerDAOImpl implements CustomerDAO{
 		List<Loan> loanList = new ArrayList<>();
 		try {
 			Connection connection = PostgresqlConnection.getConnection();
-			String sql = "Select loanid, purchaseprice, principal,interest, userid, firstname, lastname carid,"
-					+ " make, model, payments_remaining, payment_amount from project0.loan where userid = ?";
+			String sql = "SELECT loanid, purchaseprice, interest, loan.userid, loan.carid, payments_remaining, payment_amount, car.carid, car.make, car.model\r\n"
+					+ "FROM project0.loan INNER JOIN project0.car ON loan.carid = car.carid WHERE loan.userid = ?;";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1, userId);
 			ResultSet resultSet = preparedStatement.executeQuery();
@@ -106,11 +107,8 @@ public class CustomerDAOImpl implements CustomerDAO{
 				Loan loan = new Loan();
 				loan.setLoanId(resultSet.getInt("loanId"));
 				loan.setPurchasePrice(resultSet.getFloat("purchaseprice"));
-				loan.setPrincipal(resultSet.getFloat("principal"));
 				loan.setInterest(resultSet.getFloat("interest"));
 				loan.setUserId(resultSet.getInt("userid"));
-				loan.setFirstName(resultSet.getString("firstname"));
-				loan.setLastName(resultSet.getString("lastname"));
 				loan.setCarId(resultSet.getInt("carid"));
 				loan.setPaymentsRemaining(resultSet.getInt("payments_remaining"));
 				loan.setPaymentAmount(resultSet.getFloat("payment_amount"));
@@ -136,12 +134,8 @@ public class CustomerDAOImpl implements CustomerDAO{
 		preparedStatement.setInt(1, userId);
 		a = preparedStatement.executeUpdate();
 		
-		if(a != 0) {
-			log.info("Payment made");
-		}
-		
 		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
+			System.out.println(e);
 			throw new BusinessException("Internal error");
 		} 
 		

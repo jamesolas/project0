@@ -49,7 +49,7 @@ public class Main {
 		float amount = 0;
 
 		
-		log.info("Welcome to the Car App.");
+		System.out.println("Welcome to the Car App.");
 		
 		//instantiate variable for menu options
 		int menu1 = 0;
@@ -57,8 +57,8 @@ public class Main {
 		
 		//set up do while loop for menu 1
 		do {
-			log.info("1) Log In");
-			log.info("2) Register for a new account.");
+			System.out.println("1) Log In");
+			System.out.println("2) Register for a new account.");
 
 			//asking user for information
 			try {
@@ -67,15 +67,15 @@ public class Main {
 			}
 			
 			switch(menu1) {
-			case 1: log.info("Log In");
+			case 1: System.out.println("Log In");
 			
 					while(userLogin == null) {
 				
-						log.info("Please enter your email address.");
+						System.out.println("Please enter your email address.");
 						email = scanner.nextLine();
 						
 					
-						log.info("Please enter your password.");
+						System.out.println("Please enter your password.");
 						password = scanner.nextLine();
 					
 						try {
@@ -101,15 +101,15 @@ public class Main {
 				if(type.equals("employee")) {
 					
 					do {
-						log.info("Employee Menu");
-						log.info("1)View cars");
-						log.info("2)Add a car");
-						log.info("3)Remove a car");
-						log.info("4)View offers");
-						log.info("5)Accept an offer");
-						log.info("6)Reject an offer");
-						log.info("7)View payments");
-						log.info("8)Exit");
+						System.out.println("Employee Menu");
+						System.out.println("1)View cars");
+						System.out.println("2)Add a car");
+						System.out.println("3)Remove a car");
+						System.out.println("4)View offers");
+						System.out.println("5)Accept an offer");
+						System.out.println("6)Reject an offer");
+						System.out.println("7)View payments");
+						System.out.println("8)Exit");
 						
 						try {
 						employeeMenu = scanner.nextInt();
@@ -119,41 +119,41 @@ public class Main {
 						
 						switch (employeeMenu) {
 						
-						case 1: log.info("View cars");
+						case 1: System.out.println("View cars");
 								//code to service
 							try {
 								List<Car> carList = employeeServiceImpl.viewCars();
 								for(Car cars : carList) {
-									log.info(cars);
+									System.out.println(cars);
 								}
 							} catch (BusinessException e) {
 								e.printStackTrace();
 							}
 						break;
-						case 2: log.info("Add a car");
+						case 2: System.out.println("Add a car");
 								while(make.length() == 0) {
-								log.info("What is the make?");
+								System.out.println("What is the make?");
 								make = scanner.nextLine();
 										
 								}
 								while(model.length() == 0) {
-								log.info("What is the model?");
+								System.out.println("What is the model?");
 								model = scanner.nextLine();	
 								}
 								
 								//code to service
 								try {
 									Car car = employeeServiceImpl.addCar(make, model);
-									log.info(car);
 								} catch (BusinessException e) {
 									e.printStackTrace();
 								}
 								
 						
 						break;
-						case 3: log.info("Remove a car");
-								while(carId <= 0) {
-								log.info("Please enter car Id");
+						case 3: System.out.println("Remove a car");
+								carId = 0;
+								while(carId == 0) {
+								System.out.println("Please enter car Id");
 								carId = scanner.nextInt();
 								//code to service
 								try {
@@ -164,23 +164,23 @@ public class Main {
 								}
 						
 						break;
-						case 4: log.info("View offers");
+						case 4: System.out.println("View offers");
 								//code to service
 							try {
 								List<Offer> offerList = employeeServiceImpl.viewOffers();
 								for(Offer offers : offerList) {
-									log.info(offers);
+									System.out.println(offers);
 								}
 							} catch (BusinessException e) {
 								e.printStackTrace();
 							}
 						
 						break;
-						case 5: log.info("Accept an offer");
+						case 5: System.out.println("Accept an offer");
 								//resetting offerId back to 0 in case it was already assigned a value
 								offerId = 0;
 								while(offerId <= 0) {
-								log.info("Please enter the offer Id");
+								System.out.println("Please enter the offer Id");
 								offerId = scanner.nextInt();
 								//code to service
 								try {
@@ -191,11 +191,11 @@ public class Main {
 								}
 						
 						break;
-						case 6: log.info("Reject an offer");
+						case 6: System.out.println("Reject an offer");
 								//reseting offerId back to 0 in case it was already assigned a value
 								offerId = 0;
 								while(offerId <= 0) {
-								log.info("Please enter the offer Id");
+								System.out.println("Please enter the offer Id");
 								offerId = scanner.nextInt();
 								//code to service
 								try {
@@ -207,22 +207,22 @@ public class Main {
 								}
 						
 						break;
-						case 7: log.info("View payments");
+						case 7: System.out.println("View payments");
 								//code to service
 							try {
-								List<Payment> paymentList = employeeServiceImpl.viewPayments();
-								for(Payment payment : paymentList) {
-									log.info(payment);
+								List<Loan> loanList = employeeServiceImpl.viewPayments();
+								for(Loan loan : loanList) {
+									System.out.println(loanList);
 								}
 							} catch (BusinessException e) {
 								e.printStackTrace();
 							}
 						
 						break;
-						case 8: log.info("Exit");
+						case 8: System.out.println("Exit");
 						
 						break;
-						default: log.info("Please choose a valid option");
+						default: System.out.println("Please choose a valid option");
 						
 						}
 					}while(employeeMenu != 8);
@@ -230,35 +230,36 @@ public class Main {
 				}if(type.equals("customer")) {
 				
 					do {
-						log.info("Customer Menu");
-						log.info("1)View open cars");
-						log.info("2)Make an offer");
-						log.info("3)View owned cars");
-						log.info("4)View remaining payments");
-						log.info("5)Exit");
+						System.out.println("Customer Menu");
+						System.out.println("1)View open cars");
+						System.out.println("2)Make an offer");
+						System.out.println("3)View owned cars");
+						System.out.println("4)View remaining payments");
+						System.out.println("5)Make a payment");
+						System.out.println("6)Exit");
 						
 						
 						try {
 						customerMenu = scanner.nextInt();
 						}catch(NumberFormatException e) {
-							log.info("Please enter a valid number.");
+							System.out.println("Please enter a valid number.");
 						}
 						
 						switch(customerMenu) {
 						
-						case 1: log.info("View open cars");
+						case 1: System.out.println("View open cars");
 						//code to service
 							try {
 								List<Car> carList = customerServiceImpl.viewOpenCars();
 								for(Car car : carList) {
-									log.info(car);
+									System.out.println(car);
 								}
 							} catch (BusinessException e) {
 								e.printStackTrace();
 							}
 						
 						break;
-						case 2: log.info("Make an offer");
+						case 2: System.out.println("Make an offer");
 
 						//making carId equal to zero in case it was used before
 						carId = 0;
@@ -266,10 +267,10 @@ public class Main {
 						while(carId <= 0) {
 							//userId was already found so no need to get it again
 							
-							log.info("Please enter the car ID");
+							System.out.println("Please enter the car ID");
 							carId = scanner.nextInt();
 							
-							log.info("Please enter an amount");
+							System.out.println("Please enter an amount");
 							amount = scanner.nextFloat();
 							//code to service
 							try {
@@ -280,62 +281,70 @@ public class Main {
 						}
 							
 						break;
-						case 3: log.info("View owned cars");
+						case 3: System.out.println("View owned cars");
 						//already found userid so no need to get it again
 						//code to service
 							try {
 								List<Car> carList = customerServiceImpl.viewOwnedCars(userId);
 								for(Car car : carList) {
-									log.info(car);
+									System.out.println(car);
 								}
 							} catch (BusinessException e) {
 								e.printStackTrace();
 							}
 						
 						break;
-						case 4: log.info("View remaining payments");
+						case 4: System.out.println("View remaining payments");
 						//code to service
 							try {
 								List<Loan> loanList = customerServiceImpl.viewRemainingPayments(userId);
 								for(Loan loan : loanList) {
-									log.info(loan);
+									System.out.println(loan);
 								}
 							} catch (BusinessException e) {
 								e.printStackTrace();
 							}
 							
-						
+						break;
+						case 5: System.out.println("Make a payment");
+								System.out.println("Please choose a car to make a payment on.");
+								carId = scanner.nextInt();
+								int makePayment = customerServiceImpl.makePayment(userId, carId);
 						
 						break;
-						case 5: log.info("Exit");
+						case 6: System.out.println("Exit");
 						
 						break;
-						default: log.info("Please enter a valid option");
+						default: System.out.println("Please enter a valid option");
 						}
-					}while(customerMenu != 5);
+					}while(customerMenu != 6);
 			
 					}
 			break;
-			case 2: log.info("Create a new account.");
+			case 2: System.out.println("Create a new account.");
+					firstName = "";
+					lastName = "";
+					email = "";
+					password = "";
 					
-						while(firstName.length() <= 0 || firstName == null) {
-							log.info("Please enter your first name.");
+						while(firstName == "") {
+							System.out.println("Please enter your first name.");
 							firstName = scanner.nextLine();
 							
 						}
 					
-						while(lastName.length() <= 0) {
-							log.info("Please enter your last name.");
+						while(lastName == "") {
+							System.out.println("Please enter your last name.");
 							lastName = scanner.nextLine();
 						}
 					
-						while(email == null) {
-							log.info("Please enter your email address.");
+						while(email == "") {
+							System.out.println("Please enter your email address.");
 							email = scanner.nextLine();
 						}
 					
-						while(password == null) {
-							log.info("Please enter a new password.");
+						while(password == "") {
+							System.out.println("Please enter a new password.");
 							password = scanner.nextLine();
 						}
 						
@@ -346,7 +355,7 @@ public class Main {
 						}
 					
 			break;
-			default:log.info("Invalid option");
+			default:System.out.println("Invalid option");
 			break;
 			}
 	

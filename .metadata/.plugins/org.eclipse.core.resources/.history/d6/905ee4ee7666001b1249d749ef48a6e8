@@ -1,0 +1,44 @@
+package com.app.service.impl;
+
+import java.util.List;
+
+import com.app.exception.BusinessException;
+import com.app.model.Car;
+import com.app.model.Payment;
+import com.app.service.CustomerService;
+
+public class CustomerServiceImpl implements CustomerService{
+
+	@Override
+	public List<Car> viewOpenCars() throws BusinessException {
+		List<Car> carList = null;
+		//code to DAO
+		
+		return null;
+	}
+
+	@Override
+	public int makeOffer(int userId, int carId) throws BusinessException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Car> viewOwnedCars(int userId) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Payment> viewRemainingPayments(int userId) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int makePayment(int userId, int loanId) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

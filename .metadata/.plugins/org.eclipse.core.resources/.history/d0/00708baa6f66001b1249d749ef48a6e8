@@ -1,0 +1,42 @@
+package com.app.dao.impl;
+
+import java.util.List;
+
+import com.app.dao.CustomerDAO;
+import com.app.exception.BusinessException;
+import com.app.model.Car;
+import com.app.model.Payment;
+
+public class CustomerDAOImpl implements CustomerDAO{
+
+	@Override
+	public List<Car> viewOpenCars() throws BusinessException {
+		
+		return null;
+	}
+
+	@Override
+	public int makeOffer(int userId, int carId) throws BusinessException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Car> viewOwnedCars(int userId) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Payment> viewRemainingPayments(int userId) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int makePayment(int userId, int loanId) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

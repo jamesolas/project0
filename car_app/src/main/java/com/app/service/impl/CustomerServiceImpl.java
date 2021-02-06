@@ -31,7 +31,7 @@ public class CustomerServiceImpl implements CustomerService{
 	public int makeOffer(int userId, int carId, float amount) throws BusinessException {
 		int a = 0;
 		if(dao.makeOffer(userId, carId, amount) != 0){
-			log.info("Offer was made");
+			System.out.println("Offer was made");
 		}
 		return a;
 	}
@@ -51,9 +51,17 @@ public class CustomerServiceImpl implements CustomerService{
 	}
 
 	@Override
-	public int makePayment(int userId, int loanId) {
-		// TODO Auto-generated method stub
-		return 0;
+	public int makePayment(int userId, int carId) {
+		int makePayment = 0;
+		try {
+			makePayment = dao.makePayment(userId, carId);
+		} catch (BusinessException e) {
+			e.printStackTrace();
+		}
+		if(makePayment != 0) {
+			System.out.println("Payment made");
+		}
+		return makePayment;
 	}
 
 }

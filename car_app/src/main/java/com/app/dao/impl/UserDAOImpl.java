@@ -60,7 +60,7 @@ public class UserDAOImpl  implements UserDAO {
 					user.setType(resultSet.getString("type"));
 					type = resultSet.getString("type");
 				}else{
-					log.info("Email and password do not match.");
+					System.out.println("Email and password do not match.");
 				}
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block

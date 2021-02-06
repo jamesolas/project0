@@ -1017,3 +1017,15 @@
 {INFO}     com.app.main.Main     3)View owned cars  04-02-2021 PST 23:02
 {INFO}     com.app.main.Main  4)View remaining payments  04-02-2021 PST 23:02
 {INFO}     com.app.main.Main                5)Exit  04-02-2021 PST 23:02
+{INFO}     com.app.main.Main  Customer created successfully.  05-02-2021 PST 09:14
+{INFO}     com.app.main.Main  Customer created successfully.  05-02-2021 PST 09:16
+{INFO}     com.app.main.Main  Customer created successfully.  05-02-2021 PST 09:16
+{INFO}     com.app.main.Main  Customer created successfully.  05-02-2021 PST 09:16
+{INFO}     com.app.main.Main  Customer created successfully.  05-02-2021 PST 09:16
+{INFO}     com.app.main.Main  Customer created successfully.  05-02-2021 PST 09:16
+{INFO}     com.app.main.Main  Customer created successfully.  05-02-2021 PST 09:22
+{INFO}     com.app.main.Main  Customer created successfully.  05-02-2021 PST 09:24
+{INFO}     com.app.main.Main  Customer created successfully.  05-02-2021 PST 09:25
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  05-02-2021 PST 21:40
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  05-02-2021 PST 21:41
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  05-02-2021 PST 21:46

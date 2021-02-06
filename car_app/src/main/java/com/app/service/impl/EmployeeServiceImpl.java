@@ -8,8 +8,8 @@ import com.app.dao.EmployeeDAO;
 import com.app.dao.impl.EmployeeDAOImpl;
 import com.app.exception.BusinessException;
 import com.app.model.Car;
+import com.app.model.Loan;
 import com.app.model.Offer;
-import com.app.model.Payment;
 import com.app.service.EmployeeService;
 
 public class EmployeeServiceImpl implements EmployeeService {
@@ -68,8 +68,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 	}
 
 	@Override
-	public List<Payment> viewPayments() throws BusinessException {
-		List<Payment> paymentList = null;
+	public List<Loan> viewPayments() throws BusinessException {
+		List<Loan> paymentList = null;
 		//code to DAO
 		paymentList = dao.viewPayments();
 		return paymentList;
