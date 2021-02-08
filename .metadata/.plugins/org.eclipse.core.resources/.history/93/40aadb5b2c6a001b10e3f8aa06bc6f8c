@@ -1,6 +1,10 @@
 package com.app.service.impl;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.junit.Ignore;
@@ -10,12 +14,12 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.MockitoAnnotations;
 
 import com.app.dao.impl.UserDAOImpl;
 import com.app.exception.BusinessException;
 import com.app.main.Main;
 import com.app.model.User;
+import com.app.service.UserService;
 
 public class UserServiceImplTest {
 	
@@ -34,7 +38,6 @@ public class UserServiceImplTest {
 
 	@BeforeEach
 	void setUp() throws Exception {
-		MockitoAnnotations.openMocks(this);
 	}
 
 	@Test
@@ -52,14 +55,17 @@ public class UserServiceImplTest {
 		} catch (BusinessException e1) {
 			e1.printStackTrace();
 		}
+
+		String testString = ("[testFirst, testLast, testEmail, testPassword]");
 		
 		try {
-			assertEquals(user, userServiceImpl.createAccount(firstName, lastName, email, password));
+			assertEquals(1, userDAOImpl.accountCreation(user));
 		} catch (BusinessException e) {
 			e.printStackTrace();
 		}
 	}
 
+	@Ignore
 	@Test
 	void testLogIn() {
 		String email = "james@gmail.com";
@@ -85,12 +91,6 @@ public class UserServiceImplTest {
 	@Test
 	void testFindUserId(){
 		String email = "james@gmail.com";
-		try {
-			Mockito.when(userDAOImpl.findUserId(email)).thenReturn(2);
-		} catch (BusinessException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
 		try {
 			assertEquals(2, userServiceImpl.findUserId(email));
 		} catch (BusinessException e) {

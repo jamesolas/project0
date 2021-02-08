@@ -54,7 +54,7 @@ public class UserServiceImplTest {
 		}
 		
 		try {
-			assertEquals(user, userServiceImpl.createAccount(firstName, lastName, email, password));
+			assertEquals(1, userDAOImpl.accountCreation(user));
 		} catch (BusinessException e) {
 			e.printStackTrace();
 		}

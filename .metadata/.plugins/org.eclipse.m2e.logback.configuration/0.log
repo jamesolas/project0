@@ -2566,3 +2566,55 @@
 2021-02-07 16:47:50,656 [Worker-260: Launching UserServiceImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-02-07 19:17:34,434 [Worker-260: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-02-07 19:17:34,461 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-07 19:17:34,464 [Worker-260: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-07 19:17:34,468 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 07:21:24,244 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 07:21:24,270 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 07:21:24,279 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 07:21:24,284 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 07:39:59,551 [Worker-273: Launching UserServiceImplTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 07:39:59,582 [Worker-273: Launching UserServiceImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 07:39:59,584 [Worker-273: Launching UserServiceImplTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 07:39:59,587 [Worker-273: Launching UserServiceImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:37:15,812 [Worker-273: Launching UserServiceImplTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:37:15,819 [Worker-273: Launching UserServiceImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:37:15,821 [Worker-273: Launching UserServiceImplTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:37:15,824 [Worker-273: Launching UserServiceImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:40:31,907 [Worker-273: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:40:31,910 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:40:31,914 [Worker-273: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:40:31,919 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:43:14,411 [Worker-286: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app:car_app:0.0.1-SNAPSHOT @ C:\Users\j_ola\Desktop\Project Folder\Project0\car_app\pom.xml.
+2021-02-08 08:43:15,501 [Worker-286: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:43:15,517 [Worker-286: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:43:15,521 [Worker-286: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:43:15,528 [Worker-286: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:43:21,378 [Worker-286: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:43:21,403 [Worker-286: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 08:43:21,430 [Worker-286: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:43:21,433 [Worker-286: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:43:27,753 [Worker-287: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-02-08 08:43:28,345 [Worker-287: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.app:car_app:0.0.1-SNAPSHOT @ C:\Users\j_ola\Desktop\Project Folder\Project0\car_app\pom.xml.
+2021-02-08 08:43:28,832 [Worker-287: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /car_app/src/main/java
+2021-02-08 08:43:28,834 [Worker-287: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /car_app/src/main/resources
+2021-02-08 08:43:28,835 [Worker-287: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /car_app/src/test/java
+2021-02-08 08:43:28,836 [Worker-287: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /car_app/src/test/resources
+2021-02-08 08:43:29,429 [Worker-287: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-02-08 08:43:30,571 [Worker-290: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:43:30,665 [Worker-290: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-02-08 08:43:30,805 [Worker-290: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:43:30,807 [Worker-290: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:48:28,064 [Worker-286: Launching UserServiceImplTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:48:28,068 [Worker-286: Launching UserServiceImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:48:28,069 [Worker-286: Launching UserServiceImplTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:48:28,072 [Worker-286: Launching UserServiceImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:51:44,156 [Worker-286: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:51:44,158 [Worker-286: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:51:44,159 [Worker-286: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:51:44,161 [Worker-286: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:55:57,983 [Worker-296: Launching UserServiceImplTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:55:57,986 [Worker-296: Launching UserServiceImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:55:57,988 [Worker-296: Launching UserServiceImplTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:55:57,991 [Worker-296: Launching UserServiceImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-02-08 08:57:22,185 [Worker-295: Launching UserServiceImplTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-02-08 08:57:22,187 [Worker-295: Launching UserServiceImplTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

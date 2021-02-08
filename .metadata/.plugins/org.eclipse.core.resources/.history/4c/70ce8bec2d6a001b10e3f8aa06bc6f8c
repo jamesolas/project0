@@ -52,9 +52,11 @@ public class UserServiceImplTest {
 		} catch (BusinessException e1) {
 			e1.printStackTrace();
 		}
+
+		String testString = ("[testFirst, testLast, testEmail, testPassword]");
 		
 		try {
-			assertEquals(user, userServiceImpl.createAccount(firstName, lastName, email, password));
+			assertEquals(1, userDAOImpl.accountCreation(user));
 		} catch (BusinessException e) {
 			e.printStackTrace();
 		}
