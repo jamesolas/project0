@@ -1,0 +1,41 @@
+package com.app.service.impl;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+
+import com.app.dao.impl.UserDAOImpl;
+import com.app.service.UserService;
+
+class UserServiceImplTest {
+	
+	@InjectMocks
+	private static UserService userService;
+	
+	@Mock
+	private UserDAOImpl userDAOImpl;
+
+	@BeforeAll
+	public static void setUpBeforeClass() {
+		userService = new UserService();
+	}
+
+	@BeforeEach
+	void setUp() throws Exception {
+	}
+
+	@Test
+	void testCreateAccount() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testLogIn() {
+		fail("Not yet implemented");
+	}
+
+}

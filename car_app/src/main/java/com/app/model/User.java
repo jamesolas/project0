@@ -13,6 +13,24 @@ public class User {
 		super();
 	}
 
+	
+
+	public User(String email, String password, String type) {
+		super();
+		this.email = email;
+		this.password = password;
+		this.type = type;
+	}
+
+
+
+	public User(String email, String password) {
+		super();
+		this.email = email;
+		this.password = password;
+	}
+
+
 
 	public User(int customerid, String firstname, String lastname, String email, String password, String type) {
 		super();
