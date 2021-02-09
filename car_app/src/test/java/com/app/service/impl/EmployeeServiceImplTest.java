@@ -1,7 +1,7 @@
 package com.app.service.impl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.fail;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +17,7 @@ import org.mockito.MockitoAnnotations;
 import com.app.dao.impl.EmployeeDAOImpl;
 import com.app.exception.BusinessException;
 import com.app.model.Car;
+import com.app.model.Loan;
 import com.app.model.Offer;
 
 class EmployeeServiceImplTest {
@@ -79,8 +80,32 @@ class EmployeeServiceImplTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		
 				
 	}
+	
+	
+	@Test
+	void testAddCar2() {
+		String make = "Nissan";
+		String model = "Sentra";
+		Car car = new Car(make, model);
+		
+		try {
+			Mockito.when(employeeDAOImpl.addCar(car)).thenReturn(1);
+		} catch (BusinessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		try {
+			assertNotNull(employeeServiceImpl.addCar(make, model));
+		} catch (BusinessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		}
 
 	@Test
 	void testRemoveCar() {
@@ -135,19 +160,75 @@ class EmployeeServiceImplTest {
 
 	@Test
 	void testAcceptOffer() {
-		fail("Not yet implemented");
+		int offerId = 1;
+		
+		try {
+			Mockito.when(employeeDAOImpl.acceptOffer(offerId)).thenReturn(1);
+		} catch (BusinessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		try {
+			assertEquals(1, employeeServiceImpl.acceptOffer(offerId));
+		} catch (BusinessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 
 
-	//@Test
+	@Test
 	void testRejectOffer() {
-		fail("Not yet implemented");
+		int offerId = 1;
+		
+		try {
+			Mockito.when(employeeDAOImpl.rejectOffer(offerId)).thenReturn(1);
+		} catch (BusinessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		try {
+			assertEquals(1, employeeServiceImpl.rejectOffer(offerId));
+		} catch (BusinessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 
 
-	//@Test
+	@Test
 	void testViewPayments() {
-		fail("Not yet implemented");
+		//these parameters are only for reference
+//		private int loanId;
+//		private float purchasePrice;
+//		private float interest;
+//		private int userId;
+//		private int carId;
+//		private int paymentsRemaining;
+//		private float paymentAmount;
+		
+		List<Loan> loanList = new ArrayList<>();
+		new Loan(1, 584.28f, 28.29f, 2, 1, 48, 20.53f);
+		new Loan(1, 584.28f, 28.29f, 2, 1, 48, 20.53f);
+		new Loan(1, 584.28f, 28.29f, 2, 1, 48, 20.53f);
+		
+		try {
+			Mockito.when(employeeDAOImpl.viewPayments()).thenReturn(loanList);
+		} catch (BusinessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		try {
+			assertEquals(loanList, employeeServiceImpl.viewPayments());
+		} catch (BusinessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
 	}
 
 }

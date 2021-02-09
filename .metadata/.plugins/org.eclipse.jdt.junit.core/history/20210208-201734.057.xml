@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EmployeeServiceImplTest" project="car_app" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="com.app.service.impl.EmployeeServiceImplTest" time="0.525" displayname="EmployeeServiceImplTest" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]">
+    <testcase name="testAddCar2" classname="com.app.service.impl.EmployeeServiceImplTest" time="0.503" displayname="testAddCar2()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]/[method:testAddCar2()]"/>
+    <testcase name="testAcceptOffer" classname="com.app.service.impl.EmployeeServiceImplTest" time="0.002" displayname="testAcceptOffer()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]/[method:testAcceptOffer()]"/>
+    <testcase name="testRejectOffer" classname="com.app.service.impl.EmployeeServiceImplTest" time="0.002" displayname="testRejectOffer()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]/[method:testRejectOffer()]"/>
+    <testcase name="testAddCar" classname="com.app.service.impl.EmployeeServiceImplTest" time="0.003" displayname="testAddCar()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]/[method:testAddCar()]"/>
+    <testcase name="testViewOffers" classname="com.app.service.impl.EmployeeServiceImplTest" time="0.002" displayname="testViewOffers()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]/[method:testViewOffers()]"/>
+    <testcase name="testViewCars" classname="com.app.service.impl.EmployeeServiceImplTest" time="0.002" displayname="testViewCars()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]/[method:testViewCars()]"/>
+    <testcase name="testRemoveCar" classname="com.app.service.impl.EmployeeServiceImplTest" time="0.001" displayname="testRemoveCar()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]/[method:testRemoveCar()]"/>
+    <testcase name="testViewPayments" classname="com.app.service.impl.EmployeeServiceImplTest" time="0.009" displayname="testViewPayments()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]/[method:testViewPayments()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EmployeeServiceImplTest" project="car_app" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.app.service.impl.EmployeeServiceImplTest" time="0.621" displayname="EmployeeServiceImplTest" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]">
+    <testcase name="testAddCar" classname="com.app.service.impl.EmployeeServiceImplTest" time="0.602" displayname="testAddCar()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]/[method:testAddCar()]"/>
+    <testcase name="testViewOffers" classname="com.app.service.impl.EmployeeServiceImplTest" time="0.005" displayname="testViewOffers()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]/[method:testViewOffers()]"/>
+    <testcase name="testViewCars" classname="com.app.service.impl.EmployeeServiceImplTest" time="0.003" displayname="testViewCars()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]/[method:testViewCars()]"/>
+    <testcase name="testRemoveCar" classname="com.app.service.impl.EmployeeServiceImplTest" time="0.011" displayname="testRemoveCar()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.EmployeeServiceImplTest]/[method:testRemoveCar()]"/>
+  </testsuite>
+</testrun>

@@ -59,10 +59,14 @@ public class EmployeeServiceImpl implements EmployeeService {
 
 	@Override
 	public int acceptOffer(int offerId) throws BusinessException {
+		int offer = 0;
 		//code to DAO
-		dao.acceptOffer(offerId);
+		offer = dao.acceptOffer(offerId);
+		if(offer != 0) {
+			System.out.println("Offer accepted");
+		}
 		
-		return 0;
+		return offer;
 	}
 
 	@Override

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserServiceImplTest" project="car_app" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.app.service.impl.UserServiceImplTest" time="0.622" displayname="UserServiceImplTest" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.UserServiceImplTest]">
+    <testcase name="testCreateAccount" classname="com.app.service.impl.UserServiceImplTest" time="0.607" displayname="testCreateAccount()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.UserServiceImplTest]/[method:testCreateAccount()]"/>
+    <testcase name="testLogIn" classname="com.app.service.impl.UserServiceImplTest" time="0.004" displayname="testLogIn()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.UserServiceImplTest]/[method:testLogIn()]"/>
+    <testcase name="testFindUserId" classname="com.app.service.impl.UserServiceImplTest" time="0.011" displayname="testFindUserId()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.UserServiceImplTest]/[method:testFindUserId()]"/>
+  </testsuite>
+</testrun>
