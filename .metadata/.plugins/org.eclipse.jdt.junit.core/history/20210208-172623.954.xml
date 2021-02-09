@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CustomerServiceImplTest" project="car_app" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.app.service.impl.CustomerServiceImplTest" time="0.64" displayname="CustomerServiceImplTest" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.CustomerServiceImplTest]">
+    <testcase name="testViewOpenCars" classname="com.app.service.impl.CustomerServiceImplTest" time="0.625" displayname="testViewOpenCars()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.CustomerServiceImplTest]/[method:testViewOpenCars()]"/>
+    <testcase name="testMakeOffer" classname="com.app.service.impl.CustomerServiceImplTest" time="0.015" displayname="testMakeOffer()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.CustomerServiceImplTest]/[method:testMakeOffer()]"/>
+  </testsuite>
+</testrun>

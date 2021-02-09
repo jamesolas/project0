@@ -48,7 +48,7 @@ public class UserServiceImplTest {
 		User user = new User(firstName, lastName, email, password);
 		
 		try {
-			Mockito.when(userDAOImpl.accountCreation(user)).thenReturn(1);
+			Mockito.when(userDAOImpl.createAccount(user)).thenReturn(1);
 		} catch (BusinessException e1) {
 			e1.printStackTrace();
 		}
@@ -67,11 +67,14 @@ public class UserServiceImplTest {
 		String type = "customer";
 		User user = new User(email, password, type);
 		
-		try {
-			Mockito.when(userServiceImpl.logIn(email, password)).thenReturn(user);
-		} catch (BusinessException e1) {
-			e1.printStackTrace();
-		}
+		
+				try {
+					Mockito.when(userServiceImpl.logIn(email, password)).thenReturn(user);
+				} catch (BusinessException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+		
 		
 		try {
 			assertEquals(user, userServiceImpl.logIn(email, password));

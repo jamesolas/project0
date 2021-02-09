@@ -1,0 +1,81 @@
+package com.app.service.impl;
+
+import static org.junit.jupiter.api.Assertions.fail;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Assert;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
+
+import com.app.dao.impl.CustomerDAOImpl;
+import com.app.exception.BusinessException;
+import com.app.model.Car;
+
+class CustomerServiceImplTest {
+	
+	@InjectMocks
+	private static CustomerServiceImpl customerServiceImpl;
+	
+	@Mock
+	private static CustomerDAOImpl customerDAOImpl;
+	
+	
+
+	@BeforeAll
+	static void setUpBeforeClass() throws Exception {
+		customerServiceImpl = new CustomerServiceImpl();
+	}
+
+	@BeforeEach
+	void setUp() throws Exception {
+		MockitoAnnotations.openMocks(this);
+	}
+
+	@Test
+	void testViewOpenCars() {
+		List<Car> carList = new ArrayList<>();
+			new Car(10, "Toyota", "Prius", "Open", 2);
+			new Car(11, "BMW", "i5", "Open", 3);
+			new Car(12, "Mercedes", "CLK", "Open", 4);
+			
+		try {
+			Mockito.when(customerServiceImpl.viewOpenCars());
+		} catch (BusinessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		for(Car car : carList) {
+			AssertEquals(carList, customerServiceImpl.viewOpenCars());
+		}
+			
+	}
+
+	@Test
+	void testMakeOffer() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testViewOwnedCars() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testViewRemainingPayments() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testMakePayment() {
+		fail("Not yet implemented");
+	}
+
+}

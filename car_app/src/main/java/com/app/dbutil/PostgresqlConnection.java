@@ -24,7 +24,7 @@ public class PostgresqlConnection {
 //		Class.forName("org.postgresql.Driver");
 //		String url = "jdbc:postgresql://localhost:5432/postgres";
 //		String username = "postgres";
-//		String password = "waves";
+//		String password = "";
 //		connection = DriverManager.getConnection(url, username, password);
 //		return connection;
 //	}	

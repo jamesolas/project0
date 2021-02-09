@@ -1,0 +1,75 @@
+package com.app.service.impl;
+
+import static org.junit.jupiter.api.Assertions.fail;
+
+import org.junit.Ignore;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+import com.app.dao.impl.EmployeeDAOImpl;
+
+class EmployeeServiceImplTest {
+	
+	@InjectMocks
+	private static EmployeeServiceImpl employeeServiceImpl;
+	
+	@Mock
+	private static EmployeeDAOImpl employeeDAOImpl;
+
+	@BeforeAll
+	static void setUpBeforeClass() throws Exception {
+		employeeServiceImpl = new EmployeeServiceImpl();
+	}
+
+	@BeforeEach
+	void setUp() throws Exception {
+		MockitoAnnotations.openMocks(this);
+	}
+
+	@Ignore
+	@Test
+	void testViewCars() {
+		
+	}
+	
+	@Ignore
+	@Test
+	void testAddCar() {
+		fail("Not yet implemented");
+	}
+
+	@Ignore
+	@Test
+	void testRemoveCar() {
+		fail("Not yet implemented");
+	}
+
+	@Ignore
+	@Test
+	void testViewOffers() {
+		fail("Not yet implemented");
+	}
+
+	@Ignore
+	@Test
+	void testAcceptOffer() {
+		fail("Not yet implemented");
+	}
+
+	@Ignore
+	@Test
+	void testRejectOffer() {
+		fail("Not yet implemented");
+	}
+
+	@Ignore
+	@Test
+	void testViewPayments() {
+		fail("Not yet implemented");
+	}
+
+}

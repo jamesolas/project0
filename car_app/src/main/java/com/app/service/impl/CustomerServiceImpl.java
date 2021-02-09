@@ -30,7 +30,8 @@ public class CustomerServiceImpl implements CustomerService{
 	@Override
 	public int makeOffer(int userId, int carId, float amount) throws BusinessException {
 		int a = 0;
-		if(dao.makeOffer(userId, carId, amount) != 0){
+		a = dao.makeOffer(userId, carId, amount);
+		if(a != 0){
 			System.out.println("Offer was made");
 		}
 		return a;

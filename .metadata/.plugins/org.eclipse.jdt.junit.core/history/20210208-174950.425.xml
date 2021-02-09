@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CustomerServiceImplTest" project="car_app" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.app.service.impl.CustomerServiceImplTest" time="0.761" displayname="CustomerServiceImplTest" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.CustomerServiceImplTest]">
+    <testcase name="testMakePayment" classname="com.app.service.impl.CustomerServiceImplTest" time="0.739" displayname="testMakePayment()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.CustomerServiceImplTest]/[method:testMakePayment()]"/>
+    <testcase name="testViewOpenCars" classname="com.app.service.impl.CustomerServiceImplTest" time="0.004" displayname="testViewOpenCars()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.CustomerServiceImplTest]/[method:testViewOpenCars()]"/>
+    <testcase name="testViewRemainingPayments" classname="com.app.service.impl.CustomerServiceImplTest" time="0.003" displayname="testViewRemainingPayments()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.CustomerServiceImplTest]/[method:testViewRemainingPayments()]"/>
+    <testcase name="testViewOwnedCars" classname="com.app.service.impl.CustomerServiceImplTest" time="0.004" displayname="testViewOwnedCars()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.CustomerServiceImplTest]/[method:testViewOwnedCars()]"/>
+    <testcase name="testMakeOffer" classname="com.app.service.impl.CustomerServiceImplTest" time="0.011" displayname="testMakeOffer()" uniqueid="[engine:junit-jupiter]/[class:com.app.service.impl.CustomerServiceImplTest]/[method:testMakeOffer()]"/>
+  </testsuite>
+</testrun>

@@ -19,7 +19,7 @@ public class UserServiceImpl implements UserService {
 		
 		User user = new User(firstName, lastName, email, password);
 		
-		if(dao.accountCreation(user) != 0) {
+		if(dao.createAccount(user) != 0) {
 			log.info("Customer created successfully.");
 		}
 				

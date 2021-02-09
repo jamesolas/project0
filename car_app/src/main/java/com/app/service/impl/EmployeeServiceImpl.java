@@ -39,10 +39,14 @@ public class EmployeeServiceImpl implements EmployeeService {
 	}
 
 	@Override
-	public void removeCar(int carId) throws BusinessException {
+	public int removeCar(int carId) throws BusinessException {
+		int remove;
 		//code to DAO
-		dao.removeCar(carId);
-		
+		remove = dao.removeCar(carId);
+		if(remove != 0) {
+			System.out.println("Car removed");
+		};
+		return remove;
 	}
 
 	@Override
@@ -62,9 +66,14 @@ public class EmployeeServiceImpl implements EmployeeService {
 	}
 
 	@Override
-	public void rejectOffer(int offerId) throws BusinessException {
+	public int rejectOffer(int offerId) throws BusinessException {
+		int reject = 0;
 		//code to DAO
-		dao.rejectOffer(offerId);
+		reject = dao.rejectOffer(offerId);
+		if(reject != 0) {
+			System.out.println("Offer rejected");
+		}
+		return reject;
 	}
 
 	@Override

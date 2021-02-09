@@ -19,7 +19,7 @@ public class UserDAOImpl  implements UserDAO {
 	private static Logger log = Logger.getLogger(Main.class);
 
 	@Override
-	public int accountCreation(User user) throws BusinessException {
+	public int createAccount(User user) throws BusinessException {
 		int a = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
 			String sql = "insert into project0.user (firstName, lastName, email, password, type) "

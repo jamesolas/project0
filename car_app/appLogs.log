@@ -11,3 +11,8 @@
 {INFO}     com.app.main.Main  User [customerid=0, firstname=testFirst, lastname=testLast, email=testEmail, password=testPassword, type=null]  08-02-2021 PST 07:40
 {INFO}     com.app.main.Main  Customer created successfully.  08-02-2021 PST 08:56
 {INFO}     com.app.main.Main  Customer created successfully.  08-02-2021 PST 08:57
+{INFO}     com.app.main.Main  Customer created successfully.  08-02-2021 PST 15:34
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 18:11
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 18:28
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 18:36
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 18:36

@@ -11,10 +11,10 @@ public interface EmployeeService {
 	
 	public List<Car> viewCars() throws BusinessException;
 	public Car addCar(String make, String model) throws BusinessException;
-	public void removeCar(int carId) throws BusinessException;
+	public int removeCar(int carId) throws BusinessException;
 	public List<Offer> viewOffers() throws BusinessException;
 	public int acceptOffer(int offerId) throws BusinessException;
-	public void rejectOffer(int offerId) throws BusinessException;
+	public int rejectOffer(int offerId) throws BusinessException;
 	public List<Loan> viewPayments() throws BusinessException;
 	
 }
