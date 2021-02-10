@@ -219,8 +219,7 @@ public class Main {
 						
 						break;
 						case 8: System.out.println("Exit");
-							user = null;
-							password = null;
+						
 						break;
 						default: System.out.println("Please choose a valid option");
 						
@@ -313,8 +312,6 @@ public class Main {
 						
 						break;
 						case 6: System.out.println("Exit");
-						user = null;
-						password = null;
 						
 						break;
 						default: System.out.println("Please enter a valid option");
@@ -362,6 +359,5 @@ public class Main {
 			}
 	
 		}while(menu1 != 3);
-		scanner.close();
 }
 }

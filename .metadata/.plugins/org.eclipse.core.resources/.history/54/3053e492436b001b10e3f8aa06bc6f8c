@@ -38,6 +38,7 @@ public class Main {
 		String email = "";
 		String password = "";
 		int userId = 0;
+		User userLogin = null;
 		String type = "";
 		String make = "";
 		String model = "";
@@ -219,8 +220,7 @@ public class Main {
 						
 						break;
 						case 8: System.out.println("Exit");
-							user = null;
-							password = null;
+						
 						break;
 						default: System.out.println("Please choose a valid option");
 						
@@ -313,8 +313,6 @@ public class Main {
 						
 						break;
 						case 6: System.out.println("Exit");
-						user = null;
-						password = null;
 						
 						break;
 						default: System.out.println("Please enter a valid option");
@@ -362,6 +360,5 @@ public class Main {
 			}
 	
 		}while(menu1 != 3);
-		scanner.close();
 }
 }

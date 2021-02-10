@@ -313,8 +313,6 @@ public class Main {
 						
 						break;
 						case 6: System.out.println("Exit");
-						user = null;
-						password = null;
 						
 						break;
 						default: System.out.println("Please enter a valid option");

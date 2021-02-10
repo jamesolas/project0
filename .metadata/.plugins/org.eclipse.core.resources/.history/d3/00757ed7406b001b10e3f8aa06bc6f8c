@@ -38,6 +38,7 @@ public class Main {
 		String email = "";
 		String password = "";
 		int userId = 0;
+		User userLogin = null;
 		String type = "";
 		String make = "";
 		String model = "";
@@ -46,7 +47,6 @@ public class Main {
 		int employeeMenu = 0;
 		int customerMenu = 0;
 		float amount = 0;
-		User user = null;
 
 		
 		System.out.println("Welcome to the Car App.");
@@ -68,8 +68,8 @@ public class Main {
 			
 			switch(menu1) {
 			case 1: System.out.println("Log In");
+			
 				
-				while(user == null) {
 						System.out.println("Please enter your email address.");
 						email = scanner.nextLine();
 						
@@ -78,11 +78,11 @@ public class Main {
 						password = scanner.nextLine();
 					
 						try {
-							user = userService.logIn(email, password);
+							userLogin = userService.logIn(email, password);
 							} catch (BusinessException e1) {
 								e1.printStackTrace();
 							}
-				}
+					
 					
 					try {
 						type = userService.findType(email);
@@ -219,8 +219,7 @@ public class Main {
 						
 						break;
 						case 8: System.out.println("Exit");
-							user = null;
-							password = null;
+						
 						break;
 						default: System.out.println("Please choose a valid option");
 						
@@ -313,8 +312,6 @@ public class Main {
 						
 						break;
 						case 6: System.out.println("Exit");
-						user = null;
-						password = null;
 						
 						break;
 						default: System.out.println("Please enter a valid option");
@@ -362,6 +359,5 @@ public class Main {
 			}
 	
 		}while(menu1 != 3);
-		scanner.close();
 }
 }

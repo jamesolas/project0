@@ -26,8 +26,6 @@ public class UserServiceImpl implements UserService {
 		return user;
 	}
 
-	
-	
 	@Override
 	public User logIn(String email, String password) throws BusinessException {
 		User user = null;
