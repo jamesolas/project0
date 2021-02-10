@@ -144,7 +144,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		if(a != 0) {
 		Connection connection2 = PostgresqlConnection.getConnection();
 		String sql2 = "INSERT INTO project0.loan (purchaseprice, principal, interest, userid, carid, payments_remaining, payment_amount) "
-				+ "SELECT amount, amount * .05, userid, carid, 60, round(amount + (amount * .05) / 60, 2) "
+				+ "SELECT amount, amount, amount * .05, userid, carid, 60, round(amount + (amount * .05) / 60, 2) "
 				+ "FROM project0.offer "
 				+ "where offerid = ?;";
 		PreparedStatement preparedStatement2 = connection2.prepareStatement(sql2);

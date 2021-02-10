@@ -69,6 +69,7 @@ public class Main {
 			switch(menu1) {
 			case 1: System.out.println("Log In");
 			
+					while(userLogin == null) {
 				
 						System.out.println("Please enter your email address.");
 						email = scanner.nextLine();
@@ -82,7 +83,7 @@ public class Main {
 							} catch (BusinessException e1) {
 								e1.printStackTrace();
 							}
-					
+					}
 					
 					try {
 						type = userService.findType(email);

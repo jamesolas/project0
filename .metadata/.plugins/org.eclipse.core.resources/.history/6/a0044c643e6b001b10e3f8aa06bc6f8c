@@ -48,11 +48,6 @@ public class CustomerDAOImpl implements CustomerDAO{
 	@Override
 	public int makeOffer(int userId, int carId, float amount) throws BusinessException {
 		int c = 0;
-		String make = "";
-		String model = "";
-		String firstName = "";
-		String lastName = "";
-		
 		try {
 			Connection connection = PostgresqlConnection.getConnection();
 			String sql = "select make, model from project0.car where carid = ?";
@@ -64,8 +59,8 @@ public class CustomerDAOImpl implements CustomerDAO{
 			car.setMake(resultSet.getString("make"));
 			car.setModel(resultSet.getString("model"));
 		
-			make = car.getMake();
-			model = car.getModel();
+			String make = car.getMake();
+			String model = car.getModel();
 			}
 			
 			String sql2 = "select firstname, lastname from project0.user where userid = ?";
@@ -77,8 +72,8 @@ public class CustomerDAOImpl implements CustomerDAO{
 			user.setFirstName(resultSet2.getString("firstname"));
 			user.setLastName(resultSet2.getString("lastname"));
 			
-			firstName = user.getFirstName();
-			lastName = user.getLastName();
+			String firstName = user.getFirstName();
+			String lastName = user.getLastName();
 			}
 		
 		String sql3 = "insert into project0.offer (userid, firstname, lastname, carid, make, model, amount) values(?,?,?,?,?,?,?)";

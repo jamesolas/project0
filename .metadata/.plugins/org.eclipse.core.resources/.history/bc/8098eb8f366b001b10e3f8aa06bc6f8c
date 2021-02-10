@@ -83,22 +83,22 @@ public class User {
 	}
 
 
-	public String getFirstName() {
+	public String getFirstname() {
 		return firstName;
 	}
 
 
-	public void setFirstName(String firstname) {
+	public void setFirstname(String firstname) {
 		this.firstName = firstname;
 	}
 
 
-	public String getLastName() {
+	public String getLastname() {
 		return lastName;
 	}
 
 
-	public void setLastName(String lastname) {
+	public void setLastname(String lastname) {
 		this.lastName = lastname;
 	}
 
@@ -189,7 +189,7 @@ public class User {
 
 	@Override
 	public String toString() {
-		return "User [customerid=" + customerid + ", firstName=" + firstName + ", lastName=" + lastName + ", email="
+		return "User [customerid=" + customerid + ", firstname=" + firstName + ", lastname=" + lastName + ", email="
 				+ email + ", password=" + password + ", type=" + type + "]";
 	}
 
