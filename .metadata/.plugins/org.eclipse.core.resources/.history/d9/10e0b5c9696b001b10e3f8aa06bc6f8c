@@ -1,0 +1,119 @@
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 18:38
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  09-02-2021 PST 18:44
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  09-02-2021 PST 18:44
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 20:15
+{INFO}  com.app.service.impl.CustomerServiceImpl  Customer views open cars  09-02-2021 PST 20:17
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer viewing open cars  09-02-2021 PST 20:17
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer making offer  09-02-2021 PST 20:17
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 20:17
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views open cars  09-02-2021 PST 20:17
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee removes a car  09-02-2021 PST 20:18
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views open cars  09-02-2021 PST 20:21
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 20:21
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views open cars  09-02-2021 PST 20:22
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee removes a car  09-02-2021 PST 20:22
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views open cars  09-02-2021 PST 20:22
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 20:36
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee rejects an offer  09-02-2021 PST 20:37
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 20:37
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee accepts an offer  09-02-2021 PST 20:38
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 20:39
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 20:39
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee accepts an offer  09-02-2021 PST 20:39
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views payments  09-02-2021 PST 20:39
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 20:40
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 20:53
+{INFO}  com.app.service.impl.CustomerServiceImpl  Customer views open cars  09-02-2021 PST 20:54
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer viewing open cars  09-02-2021 PST 20:54
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer making offer  09-02-2021 PST 20:54
+{INFO}  com.app.service.impl.CustomerServiceImpl  Customer views open cars  09-02-2021 PST 20:54
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer viewing open cars  09-02-2021 PST 20:54
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer making offer  09-02-2021 PST 20:54
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 20:55
+{INFO}  com.app.service.impl.CustomerServiceImpl  Customer views open cars  09-02-2021 PST 20:55
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer viewing open cars  09-02-2021 PST 20:55
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer making offer  09-02-2021 PST 20:55
+{INFO}  com.app.service.impl.CustomerServiceImpl  Customer views open cars  09-02-2021 PST 20:55
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer viewing open cars  09-02-2021 PST 20:55
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer making offer  09-02-2021 PST 20:55
+{INFO}  com.app.service.impl.CustomerServiceImpl  Customer views open cars  09-02-2021 PST 20:55
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer viewing open cars  09-02-2021 PST 20:55
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer making offer  09-02-2021 PST 20:55
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 20:56
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 20:56
+{INFO}  com.app.service.impl.CustomerServiceImpl  Customer views open cars  09-02-2021 PST 20:56
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer viewing open cars  09-02-2021 PST 20:56
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer making offer  09-02-2021 PST 20:56
+{INFO}  com.app.service.impl.CustomerServiceImpl  Customer views open cars  09-02-2021 PST 20:56
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer viewing open cars  09-02-2021 PST 20:56
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer making offer  09-02-2021 PST 20:56
+{INFO}  com.app.service.impl.CustomerServiceImpl  Customer views open cars  09-02-2021 PST 20:56
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer viewing open cars  09-02-2021 PST 20:56
+{INFO}  com.app.dao.impl.CustomerDAOImpl  Customer making offer  09-02-2021 PST 20:56
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 20:56
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 20:56
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee rejects an offer  09-02-2021 PST 20:57
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 20:57
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee accepts an offer  09-02-2021 PST 20:57
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 20:59
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 20:59
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee accepts an offer  09-02-2021 PST 20:59
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 21:05
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 21:05
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee accepts an offer  09-02-2021 PST 21:05
+{INFO}  com.app.dao.impl.EmployeeDAOImpl                    32  09-02-2021 PST 21:05
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 21:09
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 21:09
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee accepts an offer  09-02-2021 PST 21:09
+{INFO}  com.app.dao.impl.EmployeeDAOImpl         offerId is 32  09-02-2021 PST 21:09
+{INFO}  com.app.dao.impl.EmployeeDAOImpl            carId is 4  09-02-2021 PST 21:09
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 21:09
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views payments  09-02-2021 PST 21:10
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 21:12
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 21:13
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee accepts an offer  09-02-2021 PST 21:13
+{INFO}  com.app.dao.impl.EmployeeDAOImpl         offerId is 30  09-02-2021 PST 21:13
+{INFO}  com.app.dao.impl.EmployeeDAOImpl            carId is 5  09-02-2021 PST 21:13
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views payments  09-02-2021 PST 21:13
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 21:40
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views payments  09-02-2021 PST 21:40
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 21:43
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 21:43
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 21:44
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 21:46
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views payments  09-02-2021 PST 21:46
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 21:48
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views payments  09-02-2021 PST 21:48
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 21:50
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views payments  09-02-2021 PST 21:50
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 21:58
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views payments  09-02-2021 PST 21:58
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 21:59
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views payments  09-02-2021 PST 21:59
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 22:01
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views payments  09-02-2021 PST 22:01
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views open cars  09-02-2021 PST 22:01
+{INFO}  com.app.dao.impl.EmployeeDAOImpl   Employee adds a car  09-02-2021 PST 22:02
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  09-02-2021 PST 22:02
+{INFO}  com.app.dao.impl.EmployeeDAOImpl   Employee adds a car  09-02-2021 PST 22:02
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  09-02-2021 PST 22:02
+{INFO}  com.app.dao.impl.EmployeeDAOImpl   Employee adds a car  09-02-2021 PST 22:02
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  09-02-2021 PST 22:02
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 22:03
+{INFO}  com.app.dao.impl.EmployeeDAOImpl   Employee adds a car  09-02-2021 PST 22:03
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  09-02-2021 PST 22:03
+{INFO}  com.app.dao.impl.EmployeeDAOImpl   Employee adds a car  09-02-2021 PST 22:04
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  09-02-2021 PST 22:04
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views open cars  09-02-2021 PST 22:04
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views offers  09-02-2021 PST 22:04
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views payments  09-02-2021 PST 22:04
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 22:04
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 22:11
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 22:12
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 22:16
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 22:19
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 22:21
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 22:31
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 22:32
+{INFO}  com.app.dao.impl.EmployeeDAOImpl  Employee views payments  09-02-2021 PST 22:32
+{INFO}     com.app.main.Main          User logs in  09-02-2021 PST 22:32

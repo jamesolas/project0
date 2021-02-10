@@ -9,12 +9,40 @@ public class Loan {
 	private int carId;
 	private int paymentsRemaining;
 	private float paymentAmount;
+	private String make;
+	private String model;
 	
 	public Loan() {
 		super();
 	}
 	
 	
+
+
+	
+
+
+
+	public Loan(int loanId, float purchasePrice, float interest, int userId, int carId, int paymentsRemaining,
+			float paymentAmount, String make, String model) {
+		super();
+		this.loanId = loanId;
+		this.purchasePrice = purchasePrice;
+		this.interest = interest;
+		this.userId = userId;
+		this.carId = carId;
+		this.paymentsRemaining = paymentsRemaining;
+		this.paymentAmount = paymentAmount;
+		this.make = make;
+		this.model = model;
+	}
+
+
+
+
+
+
+
 
 	public Loan(int loanId, float purchasePrice, float interest, int userId, int carId, int paymentsRemaining,
 			float paymentAmount) {
@@ -26,6 +54,33 @@ public class Loan {
 		this.carId = carId;
 		this.paymentsRemaining = paymentsRemaining;
 		this.paymentAmount = paymentAmount;
+	}
+
+
+
+	
+
+
+	public String getMake() {
+		return make;
+	}
+
+
+
+	public void setMake(String make) {
+		this.make = make;
+	}
+
+
+
+	public String getModel() {
+		return model;
+	}
+
+
+
+	public void setModel(String model) {
+		this.model = model;
 	}
 
 
@@ -93,6 +148,8 @@ public class Loan {
 		result = prime * result + carId;
 		result = prime * result + Float.floatToIntBits(interest);
 		result = prime * result + loanId;
+		result = prime * result + ((make == null) ? 0 : make.hashCode());
+		result = prime * result + ((model == null) ? 0 : model.hashCode());
 		result = prime * result + Float.floatToIntBits(paymentAmount);
 		result = prime * result + paymentsRemaining;
 		result = prime * result + Float.floatToIntBits(purchasePrice);
@@ -115,6 +172,16 @@ public class Loan {
 			return false;
 		if (loanId != other.loanId)
 			return false;
+		if (make == null) {
+			if (other.make != null)
+				return false;
+		} else if (!make.equals(other.make))
+			return false;
+		if (model == null) {
+			if (other.model != null)
+				return false;
+		} else if (!model.equals(other.model))
+			return false;
 		if (Float.floatToIntBits(paymentAmount) != Float.floatToIntBits(other.paymentAmount))
 			return false;
 		if (paymentsRemaining != other.paymentsRemaining)
@@ -130,7 +197,7 @@ public class Loan {
 	public String toString() {
 		return "Loan [loanId=" + loanId + ", purchasePrice=" + purchasePrice + ", interest=" + interest + ", userId="
 				+ userId + ", carId=" + carId + ", paymentsRemaining=" + paymentsRemaining + ", paymentAmount="
-				+ paymentAmount + "]";
+				+ paymentAmount + ", make=" + make + ", model=" + model + "]";
 	}
 	
 	

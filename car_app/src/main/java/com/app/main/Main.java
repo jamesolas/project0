@@ -43,6 +43,7 @@ public class Main {
 		String model = "";
 		int carId = 0;
 		int offerId = 0;
+		int menu1 = 0;
 		int employeeMenu = 0;
 		int customerMenu = 0;
 		float amount = 0;
@@ -50,18 +51,15 @@ public class Main {
 
 		
 		System.out.println("Welcome to the Car App.");
-		
-		//instantiate variable for menu options
-		int menu1 = 0;
-		
+
 		
 		//set up do while loop for menu 1
-		do {
+		do {menu1 = 0;
 			System.out.println("1) Log In");
 			System.out.println("2) Register for a new account.");
-
+			
 			//asking user for information
-			try {
+			try {	
 				menu1 = Integer.parseInt(scanner.nextLine());
 			} catch (NumberFormatException e) {
 			}
@@ -130,15 +128,13 @@ public class Main {
 							}
 						break;
 						case 2: System.out.println("Add a car");
-								while(make.length() == 0) {
+								
 								System.out.println("What is the make?");
 								make = scanner.nextLine();
-										
-								}
-								while(model.length() == 0) {
+																
 								System.out.println("What is the model?");
 								model = scanner.nextLine();	
-								}
+								
 								
 								//code to service
 								try {
@@ -211,7 +207,7 @@ public class Main {
 							try {
 								List<Loan> loanList = employeeServiceImpl.viewPayments();
 								for(Loan loan : loanList) {
-									System.out.println(loanList);
+									System.out.println(loan);
 								}
 							} catch (BusinessException e) {
 								e.printStackTrace();
@@ -315,9 +311,11 @@ public class Main {
 						case 6: System.out.println("Exit");
 						user = null;
 						password = null;
+						//menu1 = 0;
 						
 						break;
 						default: System.out.println("Please enter a valid option");
+						break;
 						}
 					}while(customerMenu != 6);
 			

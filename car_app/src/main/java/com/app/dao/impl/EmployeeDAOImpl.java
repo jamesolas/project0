@@ -133,6 +133,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	@Override
 	public int acceptOffer(int offerId) throws BusinessException {
 		log.info("Employee accepts an offer");
+		int carId = 0;
 		int a = 0;
 		int b = 0;
 		int c = 0;
@@ -147,22 +148,32 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		a = preparedStatement.executeUpdate();
 		
 		if(a != 0) {
-		Connection connection2 = PostgresqlConnection.getConnection();
-		String sql2 = "INSERT INTO project0.loan (purchaseprice, principal, interest, userid, carid, payments_remaining, payment_amount) "
-				+ "SELECT amount, amount * .05, userid, carid, 60, round(amount + (amount * .05) / 60, 2) "
+		String sql2 = "INSERT INTO project0.loan (purchaseprice, interest, userid, carid, payments_remaining, payment_amount) "
+				+ "SELECT offer.amount, offer.amount * .05, offer.userid, offer.carid, 60, round(offer.amount + (offer.amount * .05) / 60, 2) "
 				+ "FROM project0.offer "
 				+ "where offerid = ?;";
-		PreparedStatement preparedStatement2 = connection2.prepareStatement(sql2);
+		PreparedStatement preparedStatement2 = connection.prepareStatement(sql2);
 		preparedStatement2.setInt(1, offerId);
 		b = preparedStatement2.executeUpdate();	
 		}
 		
+		log.info("offerId is " + offerId);
+		
+		String sql5 = "select carid from project0.offer where offerid = ?";
+		PreparedStatement preparedStatement5 = connection.prepareStatement(sql5);
+		preparedStatement5.setInt(1, offerId);
+		ResultSet resultSet5 = preparedStatement5.executeQuery();
+		while(resultSet5.next()) {
+			Car car = new Car();
+			car.setCarId(resultSet5.getInt("carid"));
+			carId = car.getCarId();
+			log.info("carId is " + carId);
+		}
+		
 		if(b != 0) {
-			Connection connection3 = PostgresqlConnection.getConnection();
-			//String sql3 = "delete from project0.offer where offerid = ?;";
-			String sql3 = "delete from project0.offer using (select carid from project0.offer where offerid = ?) as find;";
-			PreparedStatement preparedStatement3 = connection3.prepareStatement(sql3);
-			preparedStatement3.setInt(1, offerId);
+			String sql3 = "delete from project0.offer where carid = ?";
+			PreparedStatement preparedStatement3 = connection.prepareStatement(sql3);
+			preparedStatement3.setInt(1, carId);
 			c = preparedStatement3.executeUpdate();	
 			}
 		
@@ -205,7 +216,9 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		List<Loan> loanList = new ArrayList<>();
 		try {
 			Connection connection = PostgresqlConnection.getConnection();
-			String sql = "SELECT loanid, purchaseprice, interest, loan.userid, loan.carid, payments_remaining, payment_amount, car.carid, car.make, car.model\r\n"
+//			String sql = "SELECT loanid, purchaseprice, interest, loan.userid, loan.carid, payments_remaining, payment_amount, car.carid "
+//			+ "FROM project0.loan INNER JOIN project0.car ON loan.carid = car.carid;";
+			String sql = "SELECT loanid, purchaseprice, interest, loan.userid, loan.carid, payments_remaining, payment_amount, car.carid, car.make, car.model "
 					+ "FROM project0.loan INNER JOIN project0.car ON loan.carid = car.carid;";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			ResultSet resultSet = preparedStatement.executeQuery();
@@ -218,6 +231,8 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 				loan.setCarId(resultSet.getInt("carid"));
 				loan.setPaymentsRemaining(resultSet.getInt("payments_remaining"));
 				loan.setPaymentAmount(resultSet.getFloat("payment_amount"));
+				loan.setMake(resultSet.getString("make"));
+				loan.setModel(resultSet.getString("model"));
 				loanList.add(loan);
 				}
 				
