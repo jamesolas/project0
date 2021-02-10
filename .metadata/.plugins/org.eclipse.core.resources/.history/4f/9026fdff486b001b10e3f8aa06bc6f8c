@@ -1,0 +1,33 @@
+{INFO}     com.app.main.Main  User [customerid=0, firstname=testFirst, lastname=testLast, email=testEmail, password=testPassword, type=null]  07-02-2021 PST 14:20
+{INFO}     com.app.main.Main  User [customerid=0, firstname=testFirst, lastname=testLast, email=testEmail, password=testPassword, type=null]  07-02-2021 PST 14:21
+{INFO}     com.app.main.Main  User [customerid=0, firstname=testFirst, lastname=testLast, email=testEmail, password=testPassword, type=null]  07-02-2021 PST 14:29
+{INFO}     com.app.main.Main  User [customerid=0, firstname=testFirst, lastname=testLast, email=testEmail, password=testPassword, type=null]  07-02-2021 PST 14:30
+{INFO}     com.app.main.Main  User [customerid=0, firstname=testFirst, lastname=testLast, email=testEmail, password=testPassword, type=null]  07-02-2021 PST 14:57
+{INFO}     com.app.main.Main  User [customerid=0, firstname=testFirst, lastname=testLast, email=testEmail, password=testPassword, type=null]  07-02-2021 PST 15:03
+{INFO}     com.app.main.Main  Customer created successfully.  07-02-2021 PST 15:03
+{INFO}     com.app.main.Main  User [customerid=0, firstname=testFirst, lastname=testLast, email=testEmail, password=testPassword, type=null]  07-02-2021 PST 15:03
+{INFO}     com.app.main.Main  User [customerid=0, firstname=testFirst, lastname=testLast, email=testEmail, password=testPassword, type=null]  07-02-2021 PST 16:20
+{INFO}     com.app.main.Main  User [customerid=0, firstname=testFirst, lastname=testLast, email=testEmail, password=testPassword, type=null]  07-02-2021 PST 16:24
+{INFO}     com.app.main.Main  User [customerid=0, firstname=testFirst, lastname=testLast, email=testEmail, password=testPassword, type=null]  08-02-2021 PST 07:40
+{INFO}     com.app.main.Main  Customer created successfully.  08-02-2021 PST 08:56
+{INFO}     com.app.main.Main  Customer created successfully.  08-02-2021 PST 08:57
+{INFO}     com.app.main.Main  Customer created successfully.  08-02-2021 PST 15:34
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 18:11
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 18:28
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 18:36
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 18:36
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 18:41
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 18:42
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 19:22
+{INFO}     com.app.main.Main  Customer created successfully.  08-02-2021 PST 19:25
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 19:25
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 19:36
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 19:36
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 19:37
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 19:37
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 20:17
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 20:17
+{INFO}     com.app.main.Main  Customer created successfully.  08-02-2021 PST 20:17
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 20:17
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  08-02-2021 PST 20:17
+{INFO}  com.app.service.impl.EmployeeServiceImpl             Car added  09-02-2021 PST 17:57

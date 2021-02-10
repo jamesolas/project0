@@ -21,7 +21,6 @@ public class CustomerServiceImpl implements CustomerService{
 
 	@Override
 	public List<Car> viewOpenCars() throws BusinessException {
-		log.info("Customer views open cars");
 		List<Car> carList = null;
 		//code to DAO
 		carList = dao.viewOpenCars();
