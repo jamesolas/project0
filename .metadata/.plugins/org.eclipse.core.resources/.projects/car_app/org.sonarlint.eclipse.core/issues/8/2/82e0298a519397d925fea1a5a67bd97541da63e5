@@ -1,0 +1,69 @@
+
+{
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“ĞúÿÿÿÿHéRBLOCKERZBUG
+{
+java:S2095j"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“ĞúÿÿÿÿHêRBLOCKERZBUG
+|
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¼Œç†øÿÿÿÿHëRBLOCKERZBUG
+k
+java:S1155ñ">Use isEmpty() to check whether the collection is empty or not.(Ô÷½ HìRMINORZ
+CODE_SMELL
+i	java:S106Z"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿHíRMAJORZ
+CODE_SMELL
+i	java:S106z"9Replace this use of System.out or System.err by a logger.(‘ƒ‡¹ùÿÿÿÿHîRMAJORZ
+CODE_SMELL
+i	java:S106V"9Replace this use of System.out or System.err by a logger.(åÅ—¸ÿÿÿÿÿHïRMAJORZ
+CODE_SMELL
+j
+java:S1155)">Use isEmpty() to check whether the collection is empty or not.(Ç¿ŒŒHğRMINORZ
+CODE_SMELL
+l	java:S125y"<This block of commented-out lines of code should be removed.(ğÁÕùúÿÿÿÿHñRMAJORZ
+CODE_SMELL
+^
+java:S1128"2Remove this unused import 'com.app.model.Payment'.(Æº•ĞHòRMINORZ
+CODE_SMELL
+e	java:S106Ì"9Replace this use of System.out or System.err by a logger.(®¤ñêHóRMAJORZ
+CODE_SMELL
+j
+java:S1155x">Use isEmpty() to check whether the collection is empty or not.(Ğ“ÒÀHôRMINORZ
+CODE_SMELL
+i	java:S106C"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿHõRMAJORZ
+CODE_SMELL
+~
+java:S1192D"ODefine a constant instead of duplicating this literal "Internal error" 6 times.(’âû°HöRCRITICALZ
+CODE_SMELL
+|
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“ĞúÿÿÿÿHıRBLOCKERZBUG
+j	java:S106·"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿHşRMAJORZ
+CODE_SMELL
+z
+java:S1192%"FDefine a constant instead of duplicating this literal "model" 3 times.(»‹‚¹ÿÿÿÿÿHÿRCRITICALZ
+CODE_SMELL
+|
+java:S2095”"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“ĞúÿÿÿÿHƒRBLOCKERZBUG
+i	java:S106{"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿH„RMAJORZ
+CODE_SMELL
+|
+java:S2095á"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“ĞúÿÿÿÿH…RBLOCKERZBUG
+w
+java:S2095±"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(çË‹´H†RBLOCKERZBUG
+j	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿH‡RMAJORZ
+CODE_SMELL
+h	java:S125Ş"<This block of commented-out lines of code should be removed.(ÛØ†‹HˆRMAJORZ
+CODE_SMELL
+j	java:S106†"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿH‰RMAJORZ
+CODE_SMELL
+|
+java:S2095¥"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤‚…ÏşÿÿÿÿHŠRBLOCKERZBUG
+p
+java:S2147/"DCombine this catch with the one at line 45, which has the same body.(É®£H‹RMINORZ
+CODE_SMELL
+|
+java:S2095Ç"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“ĞúÿÿÿÿHRBLOCKERZBUG
+z
+java:S1192#"FDefine a constant instead of duplicating this literal "carid" 4 times.(èÚ¯¡şÿÿÿÿHRCRITICALZ
+CODE_SMELL
+{
+java:S2095Q"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“ĞúÿÿÿÿH“RBLOCKERZBUG
+{
+java:S2095<"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“ĞúÿÿÿÿH”RBLOCKERZBUG

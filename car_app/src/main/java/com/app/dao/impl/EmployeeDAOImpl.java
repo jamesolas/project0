@@ -118,11 +118,13 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 				offerList.add(offer);
 			}
 			if(offerList.size() == 0) {
-				throw new BusinessException("No offers");
+				//throw new BusinessException("No offers");
+				System.out.println("No offers");
+				System.out.println();
 			}
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			e.printStackTrace();
+			throw new BusinessException("Internal error");
 		}finally {
 			ConnectionClosers.close(connection);
 		}

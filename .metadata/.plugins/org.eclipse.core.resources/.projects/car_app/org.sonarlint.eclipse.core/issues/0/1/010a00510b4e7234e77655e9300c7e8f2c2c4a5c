@@ -1,0 +1,10 @@
+
+d	java:S106B"9Replace this use of System.out or System.err by a logger.(ë Â÷H•RMAJORZ
+CODE_SMELL
+M
+java:S11160"Remove this empty statement.(ôŸìúÿÿÿÿH–RMINORZ
+CODE_SMELL
+d	java:S106/"9Replace this use of System.out or System.err by a logger.(À®ÂÙH—RMAJORZ
+CODE_SMELL
+i	java:S106N"9Replace this use of System.out or System.err by a logger.(¸óàúÿÿÿÿH˜RMAJORZ
+CODE_SMELL

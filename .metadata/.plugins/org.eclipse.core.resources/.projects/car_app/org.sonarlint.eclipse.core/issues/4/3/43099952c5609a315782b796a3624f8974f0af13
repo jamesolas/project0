@@ -1,0 +1,44 @@
+
+b
+java:S1135v"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH›RINFOZ
+CODE_SMELL
+{
+java:S2095l"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“ĞúÿÿÿÿHœRBLOCKERZBUG
+b
+java:S1135y"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHRINFOZ
+CODE_SMELL
+p
+java:S2147D"DCombine this catch with the one at line 65, which has the same body.(É®£HRMINORZ
+CODE_SMELL
+p
+java:S2147^"DCombine this catch with the one at line 91, which has the same body.(É®£H RMINORZ
+CODE_SMELL
+Z
+java:S1481.")Remove this unused "type" local variable.(ÊµæûÿÿÿÿH¢RMINORZ
+CODE_SMELL
+b
+java:S1135B"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH£RINFOZ
+CODE_SMELL
+{
+java:S2095S"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“ĞúÿÿÿÿH¤RBLOCKERZBUG
+q
+java:S2147x"ECombine this catch with the one at line 117, which has the same body.(É®£H¥RMINORZ
+CODE_SMELL
+b
+java:S1135E"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH§RINFOZ
+CODE_SMELL
+{
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“ĞúÿÿÿÿH¨RBLOCKERZBUG
+b
+java:S1135_"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH©RINFOZ
+CODE_SMELL
+b
+java:S1135\"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHªRINFOZ
+CODE_SMELL
+{
+java:S20954"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“ĞúÿÿÿÿH«RBLOCKERZBUG
+_
+java:S3416".Update this logger to use "UserDAOImpl.class".(ö¬Ì¢úÿÿÿÿH¬RMINORZ
+CODE_SMELL
+d	java:S106?"9Replace this use of System.out or System.err by a logger.(Ó·ìãH­RMAJORZ
+CODE_SMELL
